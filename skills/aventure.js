@@ -1,0 +1,492 @@
+"use strict";
+module.exports = function (controller) {
+
+    var chapters = [
+        {
+            "id": 1,
+            "title": "Débuts difficiles",
+            "text": "Vous vous reveillez dans une piece plongée dans l'obscurité.\nEn tatonnant, vous trouvez un escalier qui traverse la piece.",
+            "options": [
+                {
+                    "title": "Monter l'escalier",
+                    "action": 2
+                },
+                {
+                    "title": "Descendre l'escalier",
+                    "action": 3
+                },
+                {
+                    "title": "Chercher un interrupteur",
+                    "action": 4
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "L'étage de l'horreur",
+            "text": "Vous montez lentement l'escalier en essayant de pas vous casser la gueule. Devant vous s'offrent 3 portes. La première semble entrouverte; la deuxième est ouverte, et la 3ème est fermée.",
+            "options": [
+                {
+                    "title": "Pousser la première porte",
+                    "action": 9
+                },
+                {
+                    "title": "Prendre la 2ème porte",
+                    "action": 10
+                },
+                {
+                    "title": "Examiner la 3ème porte",
+                    "action": 11
+                },
+                {
+                    "title": "Redescendre l'escalier",
+                    "action": 12
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "",
+            "text": "Vous descendez lentement l'escalier en essayant de pas vous casser la gueule. Devant vous s'offrent 3 portes. La première semble entrouverte; la deuxième est ouverte, et la 3ème est fermée.",
+            "options": [
+                {
+                    "title": "Pousser la première porte",
+                    "action": 67
+                },
+                {
+                    "title": "Prendre la 2ème porte",
+                    "action": 68
+                },
+                {
+                    "title": "Examiner la 3ème porte",
+                    "action": 69
+                },
+                {
+                    "title": "Remonter l'escalier",
+                    "action": 1
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Et la lumière fut...",
+            "text": "Apres quelques minutes de recherche, vos mains tombent enfin sur le bouton.\nVous l'actionnez, découvrant alors...",
+            "options": [
+                {
+                    "title": "....un appartement tout ce qu'il y a de plus classique ?",
+                    "action": 5
+                },
+                {
+                    "title": "...des dizaines de corps avachis par terre, nus ?",
+                    "action": 6
+                },
+                {
+                    "title": "...que vous êtes aveugle ?",
+                    "action": 7
+                },
+                {
+                    "title": "....quelque chose d'encore plus terrifiant....",
+                    "action": 8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Un appartement tout ce qu'il y a de plus classique...",
+            "text": "L'appartement d'une taille conforme de deux mètres sur deux, contient son lit réglementaire, son casier réglementaire, une porte réglementaire et une grande glace qui n'est pas du tout réglementaire.\nIl n'y a pas d'escalier dans cette pièce. Cela ne devait être que votre imagination et le fait que vous n'ayez pas pris vos médicaments.",
+            "options": [
+                {
+                    "title": "Vous vous regardez dans la glace",
+                    "action": 74
+                },
+                {
+                    "title": "Vous ouvrez la porte",
+                    "action": 75
+                },
+                {
+                    "title": "Vous ouvrez votre casier",
+                    "action": 76
+                },
+                {
+                    "title": "Vous éteignez la lumière",
+                    "action": 77
+                },
+                {
+                    "title": "Vous décidez de vous coucher",
+                    "action": 78
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Fin de soirée",
+            "text": "«Putain, Maurice, éteint cette lumiere ! Ca nique les yeux !», hurle quelqu'un.\nTout le monde se reveille en geignant, faisant tinter les dizaines de bouteilles vides.\nMais que s'est il passé ici ? et pourquoi tout le monde est il à poil ?\nEt surtout...Pourquoi n'y a t il que des mecs ?",
+            "options": [
+                {
+                    "title": "Interroger quelqu'un pour tout savoir.",
+                    "action": 33
+                },
+                {
+                    "title": "Virer tout le monde.",
+                    "action": 34
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Horreur",
+            "text": "«Vous paniquez tout de suite. Mais qu'a t'il pu vous arriver ?\nVous cherchez à tâtons votre chevet, et vous appuyez dessus pour vous relever.\nVous avez beau avoir les yeux ouverts, rien à faire, le vide intersidéral. Vous approchez doucement votre main de votre visage, frôlez d'abord votre joue, puis remontez ... Et là, quelque chose d'étrange, il semble que vous touchiez du .. du tissu ? Ce fichu bandeau, vous l'aviez mis avant d'aller vous coucher.",
+            "options": [
+                {
+                    "title": "Montée d'adrénaline trop matinale, vous dites merde au boulot pour aujourd'hui",
+                    "action": 149
+                },
+                {
+                    "title": "Une longue et difficile journée vous attend ...",
+                    "action": 150
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Le drame",
+            "text": "Alors que la lumière éclaircit la pièce, vous appercez tout autour de vous une quinzaine de silhouette tout en noir et portant des masques de chèvres.\nVous sentez qu'ils vous observent tous mais personne ne bouge.\nLa panique vous gagne !\nLes seuls mots que vous arrivez à prononcer sont :",
+            "options": [
+                {
+                    "title": "- Qui êtes vous ? et ou suis-je ?",
+                    "action": 141
+                },
+                {
+                    "title": "- Euh...vous voulez connaître le titre de mon film d'horreur préféré ?",
+                    "action": 142
+                },
+                {
+                    "title": "- Bêêêêêhhhhhh !!!!",
+                    "action": 143
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "title": "C'est une tres jolie porte",
+            "text": "Vous poussez la premiere porte, décorée de petit fleur bleue, sans doute peintes par un enfant.\nEffectivement, la porte mene à une chambre de petite fille, d'où provient le son d'une boite à musique.\nDans la pénombre, vous pouvez voir une forme sous les draps.",
+            "options": [
+                {
+                    "title": "Aller vers la forme.",
+                    "action": 13
+                },
+                {
+                    "title": "Eteindre la boite à musique.",
+                    "action": 14
+                },
+                {
+                    "title": "Sortir de la chambre.",
+                    "action": 15
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Une étrange découverte",
+            "text": "Vous pénétrez dans la pièce et avez à peine le temps de poser un pied que vous vous appercevez qu'il y une une masse aux formes indescriptible et aux couleurs étranges au sol.",
+            "options": [
+                {
+                    "title": "Vous vous approchez de la chose",
+                    "action": 21
+                },
+                {
+                    "title": "Vous passez votre chemin",
+                    "action": 22
+                },
+                {
+                    "title": "Vous partez en criant comme une petite fille, sans même savoir ce qu'est le truc par terre",
+                    "action": 23
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Hum... une porte...",
+            "text": "Vous regardez la porte. Elle est jaune. Quel taudit de merde. Tout est moche et dépareillé. Vous appuyez sur la poignet et vous rendez compte que la porte est bloqué. A clé ? Sans doute.",
+            "options": [
+                {
+                    "title": "Dommage, vous avez au moins essayé. Bon, cassos.",
+                    "action": 30
+                },
+                {
+                    "title": "Vous essayer de défoncer la porte",
+                    "action": 31
+                },
+                {
+                    "title": "Vous baissez la tête, résigné...",
+                    "action": 32
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "title": "",
+            "text": "Vous revoila dans la piece du départ, toujours plongée dans le noir.",
+            "options": [
+                {
+                    "title": "Monter l'escalier",
+                    "action": 2
+                },
+                {
+                    "title": "Descendre l'escalier",
+                    "action": 3
+                },
+                {
+                    "title": "Chercher un interrupteur",
+                    "action": 4
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "title": "Boooh",
+            "text": "Accompagné par le bruit obsédant de la boite à musique, vous avancez à pas de loup vers la forme sous les draps...\nDoucement, silencieusement...\nVous n'êtes plus qu'a quelques centimetres quand une petite fille au teint verdatre surgit du lit et vous crache au visage :\n«TA MERE SUCE DES BITES EN ENFER !», fait elle avant de dégueuler sur vous.",
+            "options": [
+                {
+                    "title": "Vous sortez votre fusil.",
+                    "action": 16
+                },
+                {
+                    "title": "Vous allez chercher un pretre.",
+                    "action": 17
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "title": "Clic",
+            "text": "Vous poussez le bouton de la boite en poussant un soupir de soulagement.\nMais c'est alors qu'un musulman intégriste sort du placard de la chambre.\n«Fils de chien ! A la fin du morceau, la boite aurait du exploser, détruisant cette demeure bourgeoise et capitaliste !» disant cela, il vous jette soudainement un gros sac sur la tete avant de vous assommer.",
+            "options": [
+                {
+                    "title": "Vous êtes transporté durant votre sommeil....",
+                    "action": 29
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "title": "",
+            "text": "taptaptap....gniiiiii....schlak",
+            "options": [
+                {
+                    "title": "vous etes donc ressorti de la chambre",
+                    "action": 2
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "title": "Bam bambam",
+            "text": "Tel un petit elfe orange, vous transformez la gamine en gerbe de sang vert (pas de quoi appeller S.O.S. maltraitance, elle était possédé).\nMais c'est alors que d'étranges bruits vous parviennent de la chambre d'à coté....",
+            "options": [
+                {
+                    "title": "Aller voir",
+                    "action": 18
+                },
+                {
+                    "title": "Aller aux putes",
+                    "action": 19
+                },
+                {
+                    "title": "Se suicider de remord avec le fusil",
+                    "action": 20
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "title": "",
+            "text": "Vous téléphonez à SOS Prêtre mais personne ne répond. Vous réessayez deux fois. Toujours aucunes réponses.",
+            "options": [
+                {
+                    "title": "Vous vous voyez obligé de sortir votre fusil, pauvre enfant.",
+                    "action": 16
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "title": "Qu'est ce donc ?",
+            "text": "Vous poussez la porte avec assurance, et tombez sur...les parents de la petite fille.\nAucun doute possible, ils sont grand, verts et moche (un peu comme hulk, en fait), et leur chambre est couverte de vomi puant.\nQu'allez vous faire ?",
+            "options": [
+                {
+                    "title": "Les flinguer eux aussi avec le fusil.",
+                    "action": 24
+                },
+                {
+                    "title": "Fuir en hurlant 'nooooon, quel scénar de merde !!!'",
+                    "action": 25
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "title": "",
+            "text": "Malgré ce petit moment de faiblesse intellectuelle vous vous reprenez rapidement....NON! la ribaude attendra ce soir pour se faire defonc******...\nC'est alors que la forme verte qui a servi de petite fille précédemment, se remet à bouger",
+            "options": [
+                {
+                    "title": "Vous sortez votre couteau suisse lance grenade...et l'air patibulaire, vous avancez vers elle",
+                    "action": 161
+                },
+                {
+                    "title": "Enervé, vous décider d'employer les grandes méthodes",
+                    "action": 17
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "title": "Raté, ahahah !",
+            "text": "Seulement, se suicider avec un fusil, c'est pas donné. Cette arme, ca se voit tout de suite qu'elle n'a pas été faite pour les déprimés. Trop longue, et vos bras trop courts, vous essayez quand même de vous la mettre sur le front, et tirez.\nVous tremblez, et le canon ripe sur votre front suant ... La salve du fusil passe au dessus de vos cheveux gominés et les balles touchent l'armoire derrière vous. Le meuble se met à trembler, puis vibrer sérieusement et finit par exploser. Fiotte que vous êtes, vous vous étiez accroupi sur le sol, les bras en forme de bouclier. Vous vous relevez, et regardez cet étrange spectacle : L'armoir a éclaté en une multitude de petites boules multicolores, telles des bulles de savon.",
+            "options": [
+                {
+                    "title": "Là, c'en est trop : vous videz votre chargeur sur les boulettes",
+                    "action": 283
+                },
+                {
+                    "title": "Vous vous courez, en courant. C'est quoi cette histoire de fous ?!",
+                    "action": 15
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "title": "On se connait ?",
+            "text": "Vous vous approchez du truc par terre. Cela vous semble familier. Ces couleurs flashy... Cette couronne de fleurs... Et là, ça vous frappe, comme un coup de genou dans les burnes. Vous connaissez cette chose. C'est un homme. Vous vous approchez un peu plus, et la barbe que vous appercevez vous confirme vos doutes : il s'agit d'Antoine, le fameux chanteur populaire.",
+            "options": [
+                {
+                    "title": "Vous lui foutez quelques coups de pieds pour lui faire payer toute ses chansons pourries",
+                    "action": 26
+                },
+                {
+                    "title": "Vous vérifiez s'il est encore vivant",
+                    "action": 27
+                },
+                {
+                    "title": "Cette fois c'est bon, vous pouvez partir en criant comme une fillette : vous avez une bonne raison",
+                    "action": 28
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "title": "Une mistérieuse arche à aller vers",
+            "text": "Vous découvrez une arche au loin semblant vous attendre.",
+            "options": [
+                {
+                    "title": "Vous vous demandez : \"Cette arche sera-t-elle encore présente si je reste ici ?\" et vous restez ici.",
+                    "action": 22
+                },
+                {
+                    "title": "Vous décidez d'y aller, c'est une voie de retour vers un possible endroit.",
+                    "action": 49
+                },
+                {
+                    "title": "Cette arche est tout bonnement inintéressante. Retournons vers cette forme aux formes indescriptibles et aux couleurs étranges au sol.",
+                    "action": 10
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "title": "Enfin du boulot",
+            "text": "La masse au forme indescriptible se relève difficilement alors que vous vous enfuyiez courageusement.\n\"Yo poulette ! T'as la voix d'une agile gazelle, tu sais ? Tu ne voudrais pas chanter pour moi lors de mon prochain tube ?\"\nUne horreur indescriptible s'empare alors de votre corps. Vous reconnaissez Antoine, le chanteur populaire.",
+            "options": [
+                {
+                    "title": "- M'enfin monsieur, je suis un homme, un vrai !",
+                    "action": 82
+                },
+                {
+                    "title": "- Oh chic alors ! Et je serais payé combien ? Vous avez une grosse limousine ?",
+                    "action": 83
+                },
+                {
+                    "title": "- Ahhhh, mon dieu ! Un Antoine ! Que le seigneur me soutienne.",
+                    "action": 84
+                }
+            ]
+        }
+    ];
+
+    controller.hears(['^aventure'], 'direct_message,direct_mention', function (bot, message) {
+
+        // console.log("bot", bot);
+        // console.log("message", message);
+
+        bot.startPrivateConversation(message, function (err, convo) {
+
+            for (var i = 0; i < chapters.length; i++) {
+                var chapter = chapters[i];
+                var chapter_buttons = [];
+                var chapter_options = [];
+
+                for (var j = 0; j < chapter.options.length; j++) {
+                    var curr_option = chapter.options[j];
+                    chapter_buttons.push({
+                        name: curr_option.title,
+                        text: curr_option.title,
+                        value: "page_" + curr_option.action,
+                        type: "button"
+                    });
+                    chapter_options.push({
+                        pattern: "page_" + curr_option.action,
+                        callback: function (response, convo) {
+                            bot.replyInteractive(response, {text: response.original_message.text + "\n> *" + response.actions[0].name + "*"});
+                            convo.gotoThread(response.actions[0].value);
+                        }
+                    });
+                }// endfor(chapter.options)
+
+                convo.addQuestion({
+                    text: chapter.text,
+                    attachments: [{
+                        fallback: "Choisir une action",
+                        callback_id: "page_" + chapter.id,
+                        actions: chapter_buttons
+                    }]
+                }, chapter_options, {}, "page_" + chapter.id + "");
+            } // endfor(chapters)
+
+            convo.addQuestion({
+                text: "Je suis pret à te faire vivre une aventure !",
+                attachments: [{
+                    text: "Veux-tu continuer ?",
+                    fallback: "Choisir une action",
+                    callback_id: 'default',
+                    actions: [{
+                        name: "oui",
+                        text: "Oui",
+                        value: 'yes',
+                        type: "button"
+                    }, {
+                        name: "non",
+                        text: "Non",
+                        value: false,
+                        type: "button"
+                    }]
+                }]
+            }, [{
+                pattern: "yes",
+                callback: function (response, convo) {
+                    bot.replyInteractive(response, {text: "C'est parti !"});
+                    convo.gotoThread('page_1');
+                }
+            }, {
+                default: true,
+                callback: function (response, convo) {
+                    bot.replyInteractive(response, {text: "tu n'es pas prêt ?\n OK! À bientôt."});
+                    convo.next();
+                }
+            }], {}, 'default');
+
+            convo.activate();
+        });
+
+    });
+
+};
