@@ -1,0 +1,967 @@
+[
+  {
+    "id": 1,
+    "title": "Mystères de Sylandra : La potion du roi",
+    "text": "Votre nom est Rhys et vous exercez la profession de rôdeur au service de Sa Majesté le roi Richard Oeildelynx.\nEn ce début d'après-midi, le roi vous a fait mander. Ne souhaitant pas le faire attendre, vous vous rendez immédiatement au château.\nLe roi vous accueille avec un sourire chaleureux. Cela fait de nombreuses années que vous travaillez à son service et il vous apprécie autant que vous l'appréciez.\n- Mon ami, commence-t-il. J'ai besoin de vous pour une petite mission.\n- Bien sûr majesté, répondez-vous.\n- J'ai commandé une potion à notre druide Alembert qui vit au sein de la forêt des âmes perdues. Il aurait dû m'apporter cette potion il y a deux jours déjà, mais je n'ai toujours rien. Veuillez aller voir Alembert et lui demander pourquoi il ne m'a pas apporté la potion.\n- J'y vais de ce pas majesté, répondez-vous en vous inclinant.\nVous prenez congé et vous vous mettez directement en chemin.",
+    "options": [
+      {
+        "title": "prendre la route",
+        "action": 15
+      },
+      {
+        "title": "couper à travers bois",
+        "action": 2
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Mystères de Sylandra : Page 2",
+    "text": "Bien sûr, vous savez que la forêt des âmes perdues est un endroit dont on doit se méfier. Non seulement, on peut s'y perdre rapidement, mais en plus, elle est peuplée de nombreux animaux sauvages.\nMalgré tout, vous décidez de couper à travers cette forêt. Vous la connaissez depuis tellement longtemps que vous ne craignez plus de vous y rendre seul.\nVous y avez déjà affronté de nombreux dangers et vous êtes toujours là, en un seul morceau !\nVous pénétrez donc dans la forêt, plus préoccupé par récupérer rapidement la potion que par ce que vous pourriez rencontrer ici.\nMais alors que vous étiez à mi chemin de la cabane du druide, vous entendez soudainement des grognements mécontents non loin devant vous.\nLes fourrés s'écartent bientôt devant un gros sanglier qui est en train de vous charger furieusement.\nQuelle va donc être votre décision ?",
+    "options": [
+      {
+        "title": "prendre la fuite",
+        "action": 16
+      },
+      {
+        "title": "essayer d'esquiver l'attaque",
+        "action": 3
+      },
+      {
+        "title": "attendre la charge de l'animal",
+        "action": 4
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Mystères de Sylandra : page 3",
+    "text": "Vous savez par expérience qu'il vaut mieux esquiver un animal qui charge.\nAlors que le sanglier est presque sur vous, vous faites un rapide pas de côté. Là encore, votre expérience parle. Non seulement vous évitez la charge, mais dans un réflexe, vous réussissez à planter votre épée dans le flanc de l'animal.\nLe sanglier émet aussitôt un couinement aigu avant d'arrêter sa course quelques mètres plus loin et de s'effondrer au sol.\nQuelques secondes plus tard, il cesse totalement de bouger et vous savez qu'il vient de passer de vie à trépas.\nVous vous approchez de lui en vous disant que vous pourriez profiter de l'occasion pour ramener chez vous un bon gigot. Alors que vous êtes en train de découper l'animal, vous entendez non loin de vous un bruit de glissement dans les fourrés.\nVous regardez en direction de la provenance du bruit et c'est là que vous apercevez une plante extrêmement intéressante : la beldiane. Très rare, son pistil est réputé pour être un poison violent. Vous savez également que les druides peuvent neutraliser son poison pour ensuite utiliser la fleur en créant des potions curatives très recherchées.",
+    "options": [
+      {
+        "title": "ignorer la plante",
+        "action": 9
+      },
+      {
+        "title": "fouiller aux abords",
+        "action": 5
+      },
+      {
+        "title": "couper une fleur",
+        "action": 7
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Mystères de Sylandra : page 4",
+    "text": "Le sanglier arrive sur vous à toute vitesse ! Vous n'aviez pas remarqué que la bête était en réalité un puissant mâle. Sa force est telle qu'il vous renverse violemment et profite de votre situation de faiblesse pour vous attaquer sauvagement.\nLe temps que vous puissiez vous dégager pour lui asséner un énorme coup d'épée, vous perdez malheureusement *5 points de vie*. Malgré tout, votre coup à porté et l'animal est gravement blessé au flanc.\nIl émet aussitôt un couinement aigu avant de reculer de quelques mètres et de s'effondrer au sol. Quelques secondes plus tard, il cesse totalement de bouger et vous savez qu'il vient de passer de vie à trépas.\nSoulagé, vous vous approchez de lui en vous disant que vous pourriez profiter de l'occasion pour ramener chez vous un bon gigot. Alors que vous êtes en train de découper l'animal, vous entendez non loin de vous un bruit de glissement dans les fourrés.\nVous regardez en direction de la provenance du bruit et c'est là que vous apercevez une plante extrêmement intéressante : la beldiane. Très rare, elle est réputée pour éliminer les poisons les plus violents de l'organisme.",
+    "options": [
+      {
+        "title": "ignorer la plante",
+        "action": 10
+      },
+      {
+        "title": "fouiller aux abords",
+        "action": 6
+      },
+      {
+        "title": " couper une fleur",
+        "action": 8
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Mystères de Sylandra : page 5",
+    "text": "Votre connaissance de la forêt vous incite de nouveau à être prudent. Vous savez très bien que pour rester vivant ici, il faut être méfiant.\nDu bout de votre épée, vous remuez les buissons autour de la beldiane. Un nouveau glissement se fait entendre, puis soudain un clac !\nLa tête d'un serpent a brusquement surgi de la végétation pour mordre votre épée. Fort heureusement, ce n'était que votre épée et pas votre main !\nDépité, l'animal rentre ses crocs douloureux et s'en va en émettant un sifflement réprobateur.\nAvec un sourire satisfait, vous coupez une fleur de beldiane. Vous savez d'avance qu'Alembert en fera un bon usage.\nIl ne vous reste plus maintenant qu'à reprendre votre chemin vers la cabane du druide.",
+    "options": [
+      {
+        "title": "reprendre votre chemin",
+        "action": 17
+      },
+      {
+        "title": "continuer par la forêt",
+        "action": 11
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Mystères de Sylandra : page 6",
+    "text": "Cette fois, vous êtes méfiant. Vous n'avez pas apprécié la blessure que vous a infligée le sanglier et vous comptez bien ne pas vous faire avoir une seconde fois.\nDu bout de votre épée, vous remuez les buissons autour de la beldiane. Un nouveau glissement se fait entendre, puis soudain un clac !\nLa tête d'un serpent a brusquement surgi de la végétation pour mordre votre épée. Fort heureusement, ce n'était que votre épée et pas votre main !\nDépité, l'animal rentre ses crocs douloureux et s'en va en émettant un sifflement réprobateur.\nAvec un sourire satisfait, vous coupez une fleur de beldiane. Vous savez d'avance qu'Alembert en fera un bon usage.\nIl ne vous reste plus maintenant qu'à reprendre votre chemin vers la cabane du druide.",
+    "options": [
+      {
+        "title": "reprendre votre chemin",
+        "action": 18
+      },
+      {
+        "title": "continuer par la forêt",
+        "action": 12
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Mystères de Sylandra : page 7",
+    "text": "L'occasion est vraiment trop belle. Cette plante très rare, là juste devant vous, est une véritable aubaine ! Votre désir d'en couper une fleur est tel que vous en oubliez toute prudence élémentaire pendant un instant.\nAlors que votre main s'approche fébrilement de la fleur, quelque chose surgit de dessous les feuilles. Avant même que vous puissiez comprendre ce qu'il se passe, vous ressentez une vive douleur à la main.\nC'est un serpent qui vient de surgir brusquement pour vous mordre !\nAvant qu'il ne vous lâche pour partir vers d'autres cieux, vous avez le temps de constater qu'il ne s'agit que d'un Lurvaren. Son venin provoque un engourdissement local du système nerveux.\nPour un rongeur, la dose de venin est fatale, mais pour un être humain, cela ne provoque qu'une petite blessure et une gêne passagère. *Vous perdez 1 point de vie*.\nTout en grommelant, vous coupez une fleur de beldiane. Vous espérez qu'Alembert en fera bon usage, car elle vous a coûté une blessure à la main.\nIl ne vous reste plus maintenant qu'à reprendre votre chemin vers la cabane du druide.",
+    "options": [
+      {
+        "title": "reprendre votre chemin",
+        "action": 19
+      },
+      {
+        "title": "continuer par la forêt",
+        "action": 13
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Mystères de Sylandra : page 8",
+    "text": "L'occasion est vraiment trop belle. Cette plante très rare, là juste devant vous, est une véritable aubaine ! Votre désir d'en couper une fleur, et peut-être aussi le choc infligé par le sanglier, vous fait perdre toute prudence pendant un instant.\nAlors que votre main s'approche fébrilement de la fleur, quelque chose surgit de dessous les feuilles. Avant même que vous puissiez comprendre ce qu'il se passe, vous ressentez une vive douleur à la main.\nC'est un serpent qui vient de surgir brusquement pour vous mordre !\nAvant qu'il ne vous lâche pour partir vers d'autres cieux, vous avez le temps de constater qu'il ne s'agit que d'un Lurvaren. Son venin provoque un engourdissement local du système nerveux.\nPour un rongeur, la dose de venin est fatale, mais pour un être humain, cela ne provoque qu'une petite blessure et une gêne passagère. Vous perdez 1 point de vie.\nTout en grommelant, vous coupez une fleur de beldiane. Vous espérez qu'Alembert en fera bon usage, car elle vous a coûté une blessure à la main.\nIl ne vous reste plus maintenant qu'à reprendre votre chemin vers la cabane du druide.",
+    "options": [
+      {
+        "title": "reprendre votre chemin",
+        "action": 20
+      },
+      {
+        "title": "continuer par la forêt",
+        "action": 14
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Mystères de Sylandra : page 9",
+    "text": "Vous êtes satisfait. Vous avez un bon gigot de sanglier dans votre besace et vous décidez donc de reprendre votre chemin en ignorant la beldiane.\nAprès tout, ces bruits de glissement dans les fourrés ne vous inspiraient pas confiance. Votre mission est avant tout de récupérer la potion, pas de cueillir des plantes.\nEncore plusieurs heures de marche dans la forêt, sans incident cette fois, et vous voici enfin arrivé dans la clairière qui entoure la cabane du druide Alembert.\nLe soleil est en train de se coucher, mais il y a encore suffisamment de lumière pour voir correctement sans avoir à allumer de torche.\nLa clairière est déserte et on ne voit aucun mouvement provenant de la cabane. Cette dernière, entièrement faite de bois, est bien entretenue contrairement à ce qu'on pourrait attendre d'un vieil ermite.\nTout semble calme et paisible. Vous espérez maintenant que le druide va vous offrir l'hospitalité pour la nuit, ainsi qu'un bon repas.\nDemain, il ne vous restera plus qu'à repartir pour apporter la potion au château.",
+    "options": [
+      {
+        "title": "entrer dans la cabane",
+        "action": 73
+      },
+      {
+        "title": "jeter un oeil à la clairière",
+        "action": 22
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Mystères de Sylandra : page 10",
+    "text": "Cette charge de sanglier a refroidi vos ardeurs et d'ailleurs vous boitillez encore suite à votre blessure. Vous avez un bon gigot de sanglier dans votre besace c'est déjà pas si mal !\nPar sagesse, vous décidez donc de reprendre votre chemin en ignorant la beldiane.\n Encore plusieurs heures de marche dans la forêt, sans incident cette fois, et vous voici enfin arrivé dans la clairière qui entoure la cabane du druide Alembert.\n Le soleil est en train de se coucher, mais il y a encore suffisamment de lumière pour voir correctement sans avoir à allumer de torche.\n La clairière est déserte et on ne voit aucun mouvement provenant de la cabane. Cette dernière, entièrement faite de bois, est bien entretenue contrairement à ce qu'on pourrait attendre d'un vieil ermite.\n Tout semble calme et paisible. Vous espérez maintenant que le druide va vous offrir l'hospitalité pour la nuit, ainsi qu'un bon repas.\n Demain, il ne vous restera plus qu'à repartir pour apporter la potion au château.",
+    "options": [
+      {
+        "title": "entrer dans la cabane",
+        "action": 76
+      },
+      {
+        "title": "jeter un oeil à la clairière",
+        "action": 25
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Mystères de Sylandra : page 11",
+    "text": "Vous êtes vraiment satisfait. Cette balade n'aura pas été vaine. Vous avez un bon gigot de sanglier dans votre besace, ainsi qu'une fleur de plante très rare. C'est avec un sourire satisfait que vous reprenez votre chemin.\nEncore plusieurs heures de marche dans la forêt, sans aucun incident, et vous voici enfin arrivé dans la clairière qui entoure la cabane du druide Alembert.\nLe soleil est en train de se coucher, mais il y a encore suffisamment de lumière pour voir correctement sans avoir à allumer de torche.\nLa clairière est déserte et on ne voit aucun mouvement provenant de la cabane. Cette dernière, entièrement faite de bois, est bien entretenue contrairement à ce qu'on pourrait attendre d'un vieil ermite.\nTout semble calme et paisible. Vous espérez maintenant que le druide va vous offrir l'hospitalité pour la nuit, ainsi qu'un bon repas.\nDemain, il ne vous restera plus qu'à repartir pour apporter la potion au château.",
+    "options": [
+      {
+        "title": "entrer dans la cabane",
+        "action": 74
+      },
+      {
+        "title": "jeter un oeil à la clairière",
+        "action": 23
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Mystères de Sylandra : page 12",
+    "text": "Vous êtes satisfait. Même si vous souffrez encore de la blessure infligé par le sanglier, cette balade n'aura pas été vaine. Vous avez un bon gigot de sanglier dans votre besace, ainsi qu'une fleur de plante très rare. C'est avec un sourire satisfait que vous reprenez votre chemin.\nEncore plusieurs heures de marche dans la forêt, sans aucun incident cette fois, et vous voici enfin arrivé dans la clairière qui entoure la cabane du druide Alembert.\nLe soleil est en train de se coucher, mais il y a encore suffisamment de lumière pour voir correctement sans avoir à allumer de torche.\nLa clairière est déserte et on ne voit aucun mouvement provenant de la cabane. Cette dernière, entièrement faite de bois, est bien entretenue contrairement à ce qu'on pourrait attendre d'un vieil ermite.\nTout semble calme et paisible. Vous espérez maintenant que le druide va vous offrir l'hospitalité pour la nuit, ainsi qu'un bon repas.\nDemain, il ne vous restera plus qu'à repartir pour apporter la potion au château.",
+    "options": [
+      {
+        "title": "entrer dans la cabane",
+        "action": 76
+      },
+      {
+        "title": "jeter un oeil à la clairière",
+        "action": 25
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Mystères de Sylandra : page 13",
+    "text": "Vous êtes satisfait. Même si votre main vous fait un peu souffrir, vous avez tout de même un bon gigot de sanglier dans votre besace, ainsi qu'une fleur de plante très rare. C'est avec un sourire satisfait que vous reprenez votre chemin.\nEncore plusieurs heures de marche dans la forêt, sans aucun incident cette fois, et vous voici enfin arrivé dans la clairière qui entoure la cabane du druide Alembert.\nLe soleil est en train de se coucher, mais il y a encore suffisamment de lumière pour voir correctement sans avoir à allumer de torche.\nLa clairière est déserte et on ne voit aucun mouvement provenant de la cabane. Cette dernière, entièrement faite de bois, est bien entretenue contrairement à ce qu'on pourrait attendre d'un vieil ermite.\nTout semble calme et paisible. Vous espérez maintenant que le druide va vous offrir l'hospitalité pour la nuit, ainsi qu'un bon repas.\nDemain, il ne vous restera plus qu'à repartir pour apporter la potion au château.",
+    "options": [
+      {
+        "title": "entrer dans la cabane",
+        "action": 75
+      },
+      {
+        "title": "jeter un oeil à la clairière",
+        "action": 24
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Mystères de Sylandra : page 14",
+    "text": "La chance n'a pas été de votre côté ! Vous avez subi une charge de sanglier ainsi qu'une morsure de serpent !\nMalgré cela, vous avez un bon gigot de sanglier dans votre besace, ainsi qu'une fleur de plante très rare. Tout en grimaçant de douleur, vous reprenez votre chemin.\nEncore plusieurs heures de marche dans la forêt, sans aucun incident cette fois, et vous voici enfin arrivé dans la clairière qui entoure la cabane du druide Alembert.\nLe soleil est en train de se coucher, mais il y a encore suffisamment de lumière pour voir correctement sans avoir à allumer de torche.\nLa clairière est déserte et on ne voit aucun mouvement provenant de la cabane. Cette dernière, entièrement faite de bois, est bien entretenue contrairement à ce qu'on pourrait attendre d'un vieil ermite.\nTout semble calme et paisible. Vous espérez maintenant que le druide va vous offrir l'hospitalité pour la nuit, ainsi qu'un bon repas.\nDemain, il ne vous restera plus qu'à repartir pour apporter la potion au château.",
+    "options": [
+      {
+        "title": "entrer dans la cabane",
+        "action": 77
+      },
+      {
+        "title": "jeter un oeil à la clairière",
+        "action": 26
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Mystères de Sylandra : page 15",
+    "text": "Vous savez par expérience que la route est beaucoup plus sûre que la forêt. Le roi vous ayant ordonné de récupérer sa potion au plus vite, vous ne prenez aucun risque inutile.\nC'est ainsi qu'au bout de plusieurs heures tranquilles de marche, vous arrivez dans la clairière qui entoure la cabane du druide Alembert.\nLe soleil est en train de se coucher, mais il y a encore suffisamment de lumière pour voir correctement sans avoir à allumer de torche.\nLa clairière est déserte et on ne voit aucun mouvement provenant de la cabane. Cette dernière, entièrement faite de bois, est bien entretenue contrairement à ce qu'on pourrait attendre d'un vieil ermite.\nTout semble calme et paisible. Vous espérez maintenant que le druide va vous offrir l'hospitalité pour la nuit, ainsi qu'un bon repas.\nDemain, il ne vous restera plus qu'à repartir pour apporter la potion au château.",
+    "options": [
+      {
+        "title": "entrer dans la cabane",
+        "action": 72
+      },
+      {
+        "title": "jeter un oeil à la clairière",
+        "action": 21
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Mystères de Sylandra : page 16",
+    "text": "Vous savez par expérience qu'un sanglier qui charge est un adversaire avec lequel on ne doit pas plaisanter. Dans ce cas, la fuite n'a rien de déshonorant.\nVous courrez vers la route et constatez que le sanglier abandonne rapidement sa poursuite. Rassuré, vous décidez de continuer par la route cette fois.\nC'est ainsi qu'au bout de plusieurs heures tranquilles de marche, vous arrivez dans la clairière qui entoure la cabane du druide Alembert.\nLe soleil est en train de se coucher, mais il y a encore suffisamment de lumière pour voir correctement sans avoir à allumer de torche.\nLa clairière est déserte et on ne voit aucun mouvement provenant de la cabane. Cette dernière, entièrement faite de bois, est bien entretenue contrairement à ce qu'on pourrait attendre d'un vieil ermite.\nTout semble calme et paisible. Vous espérez maintenant que le druide va vous offrir l'hospitalité pour la nuit, ainsi qu'un bon repas.\nDemain, il ne vous restera plus qu'à repartir pour apporter la potion au château.",
+    "options": [
+      {
+        "title": "entrer dans la cabane",
+        "action": 72
+      },
+      {
+        "title": "jeter un oeil à la clairière",
+        "action": 21
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Mystères de Sylandra : page 17",
+    "text": "Vous êtes vraiment satisfait. Cette balade n'aura pas été vaine. Vous avez un bon gigot de sanglier dans votre besace, ainsi qu'une fleur de plante très rare. C'est avec un sourire satisfait que vous reprenez votre chemin, mais en prenant la route cette fois.\nVous savez par expérience que la route est beaucoup plus sûre que la forêt. Plusieurs heures de marche plus tard, vous voici enfin arrivé dans la clairière qui entoure la cabane du druide Alembert.\nLe soleil est en train de se coucher, mais il y a encore suffisamment de lumière pour voir correctement sans avoir à allumer de torche.\nLa clairière est déserte et on ne voit aucun mouvement provenant de la cabane. Cette dernière, entièrement faite de bois, est bien entretenue contrairement à ce qu'on pourrait attendre d'un vieil ermite.\nTout semble calme et paisible. Vous espérez maintenant que le druide va vous offrir l'hospitalité pour la nuit, ainsi qu'un bon repas.\nDemain, il ne vous restera plus qu'à repartir pour apporter la potion au château.",
+    "options": [
+      {
+        "title": "entrer dans la cabane",
+        "action": 74
+      },
+      {
+        "title": "jeter un oeil à la clairière",
+        "action": 23
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Mystères de Sylandra : page 18",
+    "text": "Vous êtes satisfait. Même si vous souffrez encore de la blessure infligé par le sanglier, cette balade n'aura pas été vaine. Vous avez un bon gigot de sanglier dans votre besace, ainsi qu'une fleur de plante très rare. C'est avec un sourire satisfait que vous reprenez votre chemin, mais en prenant la route cette fois.\nVous savez par expérience que la route est beaucoup plus sûre que la forêt. Plusieurs heures de marche plus tard, vous voici enfin arrivé dans la clairière qui entoure la cabane du druide Alembert.\nLe soleil est en train de se coucher, mais il y a encore suffisamment de lumière pour voir correctement sans avoir à allumer de torche.\nLa clairière est déserte et on ne voit aucun mouvement provenant de la cabane. Cette dernière, entièrement faite de bois, est bien entretenue contrairement à ce qu'on pourrait attendre d'un vieil ermite.\nTout semble calme et paisible. Vous espérez maintenant que le druide va vous offrir l'hospitalité pour la nuit, ainsi qu'un bon repas.\nDemain, il ne vous restera plus qu'à repartir pour apporter la potion au château.",
+    "options": [
+      {
+        "title": "entrer dans la cabane",
+        "action": 76
+      },
+      {
+        "title": "jeter un oeil à la clairière",
+        "action": 25
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Mystères de Sylandra : page 19",
+    "text": "Vous êtes satisfait. Même si votre main vous fait un peu souffrir, vous avez tout de même un bon gigot de sanglier dans votre besace, ainsi qu'une fleur de plante très rare. C'est avec un sourire satisfait que vous reprenez votre chemin.\nVous savez par expérience que la route est beaucoup plus sûre que la forêt. Plusieurs heures de marche plus tard, vous voici enfin arrivé dans la clairière qui entoure la cabane du druide Alembert.\nLe soleil est en train de se coucher, mais il y a encore suffisamment de lumière pour voir correctement sans avoir à allumer de torche.\nLa clairière est déserte et on ne voit aucun mouvement provenant de la cabane. Cette dernière, entièrement faite de bois, est bien entretenue contrairement à ce qu'on pourrait attendre d'un vieil ermite.\nTout semble calme et paisible. Vous espérez maintenant que le druide va vous offrir l'hospitalité pour la nuit, ainsi qu'un bon repas.\nDemain, il ne vous restera plus qu'à repartir pour apporter la potion au château.",
+    "options": [
+      {
+        "title": "entrer dans la cabane",
+        "action": 75
+      },
+      {
+        "title": "jeter un oeil à la clairière",
+        "action": 24
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Mystères de Sylandra : page 20",
+    "text": "La chance n'a pas été de votre côté ! Vous avez subi une charge de sanglier ainsi qu'une morsure de serpent ! Malgré cela, vous avez un bon gigot de sanglier dans votre besace, ainsi qu'une fleur de plante très rare.\nTout en grimaçant de douleur, vous reprenez votre chemin, mais en choisissant la route cette fois.\nVous savez par expérience que la route est beaucoup plus sûre que la forêt. Plusieurs heures de marche plus tard, vous voici enfin arrivé dans la clairière qui entoure la cabane du druide Alembert.\nLe soleil est en train de se coucher, mais il y a encore suffisamment de lumière pour voir correctement sans avoir à allumer de torche.\nLa clairière est déserte et on ne voit aucun mouvement provenant de la cabane. Cette dernière, entièrement faite de bois, est bien entretenue contrairement à ce qu'on pourrait attendre d'un vieil ermite.\nTout semble calme et paisible. Vous espérez maintenant que le druide va vous offrir l'hospitalité pour la nuit, ainsi qu'un bon repas.\nDemain, il ne vous restera plus qu'à repartir pour apporter la potion au château.",
+    "options": [
+      {
+        "title": "entrer dans la cabane",
+        "action": 77
+      },
+      {
+        "title": "jeter un oeil à la clairière",
+        "action": 26
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Mystères de Sylandra : page 21",
+    "text": "À y réfléchir à deux fois, cette clairière est un peu trop calme. Votre instinct vous ordonne de vous méfier et d'en faire prudemment le tour avant de rentrer dans la cabane.\nVous arpentez les alentours et vous en profitez pour regarder attentivement le sol. Votre métier de rôdeur vous a appris que des traces laissées au sol pouvaient raconter beaucoup de choses à celui qui était capable de les analyser.\nVous ne regrettez pas votre prudence. À plusieurs endroits, vous repérez des traces de pas qui ne sont pas ceux d'un humain.\nOui, vous en êtes sûr, des gobelins sont passés par là !\nVous poursuivez vos observations pendant plusieurs minutes encore. Vos conclusions sont sans appel. Une bande de gobelins est passée par la clairière pour entrer dans la maison du druide.\nVous connaissez bien Alembert. Jamais il ne ferait affaire avec des gobelins de plein grès. Cela ne veut donc dire qu'une seule chose : le vieux druide est en danger !\nComme vous ne voyez pas les traces repartir par la forêt, vous en concluez que les gobelins sont toujours chez le druide.\nQuelle décision allez-vous prendre ?",
+    "options": [
+      {
+        "title": "partir et prévenir la garde",
+        "action": 27
+      },
+      {
+        "title": "entrer dans la cabane",
+        "action": 33
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Mystères de Sylandra : page 22",
+    "text": "À y réfléchir à deux fois, cette clairière est un peu trop calme. Votre instinct vous ordonne de vous méfier et d'en faire prudemment le tour avant de rentrer dans la cabane.\nVous arpentez les alentours et vous en profitez pour regarder attentivement le sol. Votre métier de rôdeur vous a appris que des traces laissées au sol pouvaient raconter beaucoup de choses à celui qui était capable de les analyser.\nVous ne regrettez pas votre prudence. À plusieurs endroits, vous repérez des traces de pas qui ne sont pas ceux d'un humain.\nOui, vous en êtes sûr, des gobelins sont passés par là !\nVous poursuivez vos observations pendant plusieurs minutes encore. Vos conclusions sont sans appel. Une bande de gobelins est passée par la clairière pour entrer dans la maison du druide.\nVous connaissez bien Alembert. Jamais il ne ferait affaire avec des gobelins de plein grès. Cela ne veut donc dire qu'une seule chose : le vieux druide est en danger !\nComme vous ne voyez pas les traces repartir par la forêt, vous en concluez que les gobelins sont toujours chez le druide.\nQuelle décision allez-vous prendre ?",
+    "options": [
+      {
+        "title": "partir et prévenir la garde",
+        "action": 28
+      },
+      {
+        "title": "entrer dans la cabane",
+        "action": 34
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Mystères de Sylandra : page 23",
+    "text": "À y réfléchir à deux fois, cette clairière est un peu trop calme. Votre instinct vous ordonne de vous méfier et d'en faire prudemment le tour avant de rentrer dans la cabane.\nVous arpentez les alentours et vous en profitez pour regarder attentivement le sol. Votre métier de rôdeur vous a appris que des traces laissées au sol pouvaient raconter beaucoup de choses à celui qui était capable de les analyser.\nVous ne regrettez pas votre prudence. À plusieurs endroits, vous repérez des traces de pas qui ne sont pas ceux d'un humain.\nOui, vous en êtes sûr, des gobelins sont passés par là !\nVous poursuivez vos observations pendant plusieurs minutes encore. Vos conclusions sont sans appel. Une bande de gobelins est passée par la clairière pour entrer dans la maison du druide.\nVous connaissez bien Alembert. Jamais il ne ferait affaire avec des gobelins de plein grès. Cela ne veut donc dire qu'une seule chose : le vieux druide est en danger !\nComme vous ne voyez pas les traces repartir par la forêt, vous en concluez que les gobelins sont toujours chez le druide.\nQuelle décision allez-vous prendre ?",
+    "options": [
+      {
+        "title": "partir et prévenir la garde",
+        "action": 29
+      },
+      {
+        "title": "entrer dans la cabane",
+        "action": 35
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Mystères de Sylandra : page 24",
+    "text": "À y réfléchir à deux fois, cette clairière est un peu trop calme. Votre instinct vous ordonne de vous méfier et d'en faire prudemment le tour avant de rentrer dans la cabane.\nVous arpentez les alentours et vous en profitez pour regarder attentivement le sol. Votre métier de rôdeur vous a appris que des traces laissées au sol pouvaient raconter beaucoup de choses à celui qui était capable de les analyser.\nVous ne regrettez pas votre prudence. À plusieurs endroits, vous repérez des traces de pas qui ne sont pas ceux d'un humain.\nOui, vous en êtes sûr, des gobelins sont passés par là !\nVous poursuivez vos observations pendant plusieurs minutes encore. Vos conclusions sont sans appel. Une bande de gobelins est passée par la clairière pour entrer dans la maison du druide.\nVous connaissez bien Alembert. Jamais il ne ferait affaire avec des gobelins de plein grès. Cela ne veut donc dire qu'une seule chose : le vieux druide est en danger !\nComme vous ne voyez pas les traces repartir par la forêt, vous en concluez que les gobelins sont toujours chez le druide.\nQuelle décision allez-vous prendre ?",
+    "options": [
+      {
+        "title": "partir et prévenir la garde",
+        "action": 30
+      },
+      {
+        "title": "entrer dans la cabane",
+        "action": 36
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Mystères de Sylandra : page 25",
+    "text": "À y réfléchir à deux fois, cette clairière est un peu trop calme. Votre instinct vous ordonne de vous méfier et d'en faire prudemment le tour avant de rentrer dans la cabane.\nVous arpentez les alentours et vous en profitez pour regarder attentivement le sol. Votre métier de rôdeur vous a appris que des traces laissées au sol pouvaient raconter beaucoup de choses à celui qui était capable de les analyser.\nVous ne regrettez pas votre prudence. À plusieurs endroits, vous repérez des traces de pas qui ne sont pas ceux d'un humain.\nOui, vous en êtes sûr, des gobelins sont passés par là !\nVous poursuivez vos observations pendant plusieurs minutes encore. Vos conclusions sont sans appel. Une bande de gobelins est passée par la clairière pour entrer dans la maison du druide.\nVous connaissez bien Alembert. Jamais il ne ferait affaire avec des gobelins de plein grès. Cela ne veut donc dire qu'une seule chose : le vieux druide est en danger !\nComme vous ne voyez pas les traces repartir par la forêt, vous en concluez que les gobelins sont toujours chez le druide.\nQuelle décision allez-vous prendre ?",
+    "options": [
+      {
+        "title": "partir et prévenir la garde",
+        "action": 31
+      },
+      {
+        "title": "entrer dans la cabane",
+        "action": 37
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Mystères de Sylandra : page 26",
+    "text": "À y réfléchir à deux fois, cette clairière est un peu trop calme. Votre instinct vous ordonne de vous méfier et d'en faire prudemment le tour avant de rentrer dans la cabane.\nVous arpentez les alentours et vous en profitez pour regarder attentivement le sol. Votre métier de rôdeur vous a appris que des traces laissées au sol pouvaient raconter beaucoup de choses à celui qui était capable de les analyser.\nVous ne regrettez pas votre prudence. À plusieurs endroits, vous repérez des traces de pas qui ne sont pas ceux d'un humain.\nOui, vous en êtes sûr, des gobelins sont passés par là !\nVous poursuivez vos observations pendant plusieurs minutes encore. Vos conclusions sont sans appel. Une bande de gobelins est passée par la clairière pour entrer dans la maison du druide.\nVous connaissez bien Alembert. Jamais il ne ferait affaire avec des gobelins de plein grès. Cela ne veut donc dire qu'une seule chose : le vieux druide est en danger !\nComme vous ne voyez pas les traces repartir par la forêt, vous en concluez que les gobelins sont toujours chez le druide.\nQuelle décision allez-vous prendre ?",
+    "options": [
+      {
+        "title": "partir et prévenir la garde",
+        "action": 32
+      },
+      {
+        "title": "entrer dans la cabane",
+        "action": 38
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Mystères de Sylandra : page 27",
+    "text": "Impossible de savoir combien de gobelins sont ici. Vous décidez que la meilleure chose à faire, c'est d'aller chercher la garde du château.\nVous prenez la route au pas de course et après un marathon de deux heures, vous arrivez au château.\nLe roi est en train de dîner tranquillement en compagnie de nombreux convives. Lorsqu'il vous voit entrer dans la grande salle, épuisé et en sueur, il se lève de sa chaise et abandonne la cuisse de faisan qu'il était en train de déguster.\n- Que se passe-t-il Rhys ? demande-t-il inquiet.\n- Majesté, des gobelins gardent Alembert prisonnier. Je suis aussitôt revenu vous prévenir.\n- Gardes ! crie le roi. Allez immédiatement à la cabane du druide !\nCe n'est que le lendemain matin, que vous apprenez de la bouche du roi même qu'il n'y avait que cinq misérables gobelins dans la cabane d'Alembert.\n- Mon cher, vous dit le roi. J'avais une meilleure opinion de mon rôdeur. Je pensais que vous seriez capable d'exécuter cette mission sans aucun souci. La prochaine fois, je vous demanderai simplement d'aller chercher du pain à la boulangerie. À moins que pour cela aussi, vous aillez besoin d'aide ?\nDépité et humilié, vous regrettez de ne pas être entré dans cette cabane. Peut-être auriez-vous dû prendre une autre décision ?\n\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 28,
+    "title": "Mystères de Sylandra : page 28",
+    "text": "Impossible de savoir combien de gobelins sont ici. Vous décidez que la meilleure chose à faire, c'est d'aller chercher la garde du château.\nVous prenez la route au pas de course et après un marathon de deux heures, vous arrivez au château.\nLe roi est en train de dîner tranquillement en compagnie de nombreux convives. Lorsqu'il vous voit entrer dans la grande salle, épuisé et en sueur, il se lève de sa chaise et abandonne la cuisse de faisan qu'il était en train de déguster.\n- Que se passe-t-il Rhys ? demande-t-il inquiet.\n- Majesté, des gobelins gardent Alembert prisonnier. Je suis aussitôt revenu vous prévenir.\n- Gardes ! crie le roi. Allez immédiatement à la cabane du druide !\nCe n'est que le lendemain matin, que vous apprenez de la bouche du roi même qu'il n'y avait que cinq misérables gobelins dans la cabane d'Alembert.\n- Mon cher, vous dit le roi. J'avais une meilleure opinion de mon rôdeur. Je pensais que vous seriez capable d'exécuter cette mission sans aucun souci. La prochaine fois, je vous demanderai simplement d'aller chercher du pain à la boulangerie. À moins que pour cela aussi, vous aillez besoin d'aide ?\nDépité et humilié, vous regrettez de ne pas être entré dans cette cabane. Peut-être auriez-vous dû prendre une autre décision ?\n\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 29,
+    "title": "Mystères de Sylandra : page 29",
+    "text": "Impossible de savoir combien de gobelins sont ici. Vous décidez que la meilleure chose à faire, c'est d'aller chercher la garde du château.\nVous prenez la route au pas de course et après un marathon de deux heures, vous arrivez au château.\nLe roi est en train de dîner tranquillement en compagnie de nombreux convives. Lorsqu'il vous voit entrer dans la grande salle, épuisé et en sueur, il se lève de sa chaise et abandonne la cuisse de faisan qu'il était en train de déguster.\n- Que se passe-t-il Rhys ? demande-t-il inquiet.\n- Majesté, des gobelins gardent Alembert prisonnier. Je suis aussitôt revenu vous prévenir.\n- Gardes ! crie le roi. Allez immédiatement à la cabane du druide !\nCe n'est que le lendemain matin, que vous apprenez de la bouche du roi même qu'il n'y avait que cinq misérables gobelins dans la cabane d'Alembert.\n- Mon cher, vous dit le roi. J'avais une meilleure opinion de mon rôdeur. Je pensais que vous seriez capable d'exécuter cette mission sans aucun souci. La prochaine fois, je vous demanderai simplement d'aller chercher du pain à la boulangerie. À moins que pour cela aussi, vous aillez besoin d'aide ?\nDépité et humilié, vous regrettez de ne pas être entré dans cette cabane. Peut-être auriez-vous dû prendre une autre décision ?\n\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 30,
+    "title": "Mystères de Sylandra : page 30",
+    "text": "Impossible de savoir combien de gobelins sont ici. Vous décidez que la meilleure chose à faire, c'est d'aller chercher la garde du château.\nVous prenez la route au pas de course et après un marathon de deux heures, vous arrivez au château.\nLe roi est en train de dîner tranquillement en compagnie de nombreux convives. Lorsqu'il vous voit entrer dans la grande salle, épuisé et en sueur, il se lève de sa chaise et abandonne la cuisse de faisan qu'il était en train de déguster.\n- Que se passe-t-il Rhys ? demande-t-il inquiet.\n- Majesté, des gobelins gardent Alembert prisonnier. Je suis aussitôt revenu vous prévenir.\n- Gardes ! crie le roi. Allez immédiatement à la cabane du druide !\nCe n'est que le lendemain matin, que vous apprenez de la bouche du roi même qu'il n'y avait que cinq misérables gobelins dans la cabane d'Alembert.\n- Mon cher, vous dit le roi. J'avais une meilleure opinion de mon rôdeur. Je pensais que vous seriez capable d'exécuter cette mission sans aucun souci. La prochaine fois, je vous demanderai simplement d'aller chercher du pain à la boulangerie. À moins que pour cela aussi, vous aillez besoin d'aide ?\nDépité et humilié, vous regrettez de ne pas être entré dans cette cabane. Peut-être auriez-vous dû prendre une autre décision ?\n\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 31,
+    "title": "Mystères de Sylandra : page 31",
+    "text": "Impossible de savoir combien de gobelins sont ici. Vous décidez que la meilleure chose à faire, c'est d'aller chercher la garde du château.\nVous prenez la route au pas de course et après un marathon de deux heures, vous arrivez au château.\nLe roi est en train de dîner tranquillement en compagnie de nombreux convives. Lorsqu'il vous voit entrer dans la grande salle, épuisé et en sueur, il se lève de sa chaise et abandonne la cuisse de faisan qu'il était en train de déguster.\n- Que se passe-t-il Rhys ? demande-t-il inquiet.\n- Majesté, des gobelins gardent Alembert prisonnier. Je suis aussitôt revenu vous prévenir.\n- Gardes ! crie le roi. Allez immédiatement à la cabane du druide !\nCe n'est que le lendemain matin, que vous apprenez de la bouche du roi même qu'il n'y avait que cinq misérables gobelins dans la cabane d'Alembert.\n- Mon cher, vous dit le roi. J'avais une meilleure opinion de mon rôdeur. Je pensais que vous seriez capable d'exécuter cette mission sans aucun souci. La prochaine fois, je vous demanderai simplement d'aller chercher du pain à la boulangerie. À moins que pour cela aussi, vous aillez besoin d'aide ?\nDépité et humilié, vous regrettez de ne pas être entré dans cette cabane. Peut-être auriez-vous dû prendre une autre décision ?\n\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 32,
+    "title": "Mystères de Sylandra : page 32",
+    "text": "Impossible de savoir combien de gobelins sont ici. Vous décidez que la meilleure chose à faire, c'est d'aller chercher la garde du château.\nVous prenez la route au pas de course et après un marathon de deux heures, vous arrivez au château.\nLe roi est en train de dîner tranquillement en compagnie de nombreux convives. Lorsqu'il vous voit entrer dans la grande salle, épuisé et en sueur, il se lève de sa chaise et abandonne la cuisse de faisan qu'il était en train de déguster.\n- Que se passe-t-il Rhys ? demande-t-il inquiet.\n- Majesté, des gobelins gardent Alembert prisonnier. Je suis aussitôt revenu vous prévenir.\n- Gardes ! crie le roi. Allez immédiatement à la cabane du druide !\nCe n'est que le lendemain matin, que vous apprenez de la bouche du roi même qu'il n'y avait que cinq misérables gobelins dans la cabane d'Alembert.\n- Mon cher, vous dit le roi. J'avais une meilleure opinion de mon rôdeur. Je pensais que vous seriez capable d'exécuter cette mission sans aucun souci. La prochaine fois, je vous demanderai simplement d'aller chercher du pain à la boulangerie. À moins que pour cela aussi, vous aillez besoin d'aide ?\nDépité et humilié, vous regrettez de ne pas être entré dans cette cabane. Peut-être auriez-vous dû prendre une autre décision ?\n\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 33,
+    "title": "Mystères de Sylandra : page 33",
+    "text": "Vous prenez votre épée en main et vous vous approchez silencieusement de la cabane. Vous posez une oreille contre la porte et vous écoutez pendant plusieurs secondes. Vous n'entendez aucun bruit.\nPrudemment et en essayant de faire le moins de bruit possible, vous ouvrez la porte d'entrée. Elle donne sur un couloir qui comporte trois portes, toutes fermées.\nDe la porte de gauche, vous n'entendez aucun bruit.\nPar contre, depuis celle de droite, vous pouvez entendre un léger ronflement.\nMais c'est derrière celle qui est au fond qu'il semble se passer le plus de choses : des paroles de voix humaine se mêlent au langage strident de plusieurs gobelins.\nPour le moment, vous n'avez pas révélé votre présence et vous devriez en profiter.\nQuelle décision allez-vous prendre pour libérer Alembert ?",
+    "options": [
+      {
+        "title": "ouvrir la porte gauche",
+        "action": 39
+      },
+      {
+        "title": "ouvrir la porte droite",
+        "action": 45
+      },
+      {
+        "title": "ouvrir celle du fond",
+        "action": 51
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Mystères de Sylandra : page 34",
+    "text": "Vous prenez votre épée en main et vous vous approchez silencieusement de la cabane. Vous posez une oreille contre la porte et vous écoutez pendant plusieurs secondes. Vous n'entendez aucun bruit.\nPrudemment et en essayant de faire le moins de bruit possible, vous ouvrez la porte d'entrée. Elle donne sur un couloir qui comporte trois portes, toutes fermées.De la porte de gauche, vous n'entendez aucun bruit.\nPar contre, depuis celle de droite, vous pouvez entendre un léger ronflement.\nMais c'est derrière celle qui est au fond qu'il semble se passer le plus de choses : des paroles de voix humaine se mêlent au langage strident de plusieurs gobelins.\nPour le moment, vous n'avez pas révélé votre présence et vous devriez en profiter.\nQuelle décision allez-vous prendre pour libérer Alembert ?",
+    "options": [
+      {
+        "title": "ouvrir la porte gauche",
+        "action": 40
+      },
+      {
+        "title": "ouvrir la porte droite",
+        "action": 46
+      },
+      {
+        "title": "ouvrir celle du fond",
+        "action": 52
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Mystères de Sylandra : page 35",
+    "text": "Vous prenez votre épée en main et vous vous approchez silencieusement de la cabane. Vous posez une oreille contre la porte et vous écoutez pendant plusieurs secondes. Vous n'entendez aucun bruit.\nPrudemment et en essayant de faire le moins de bruit possible, vous ouvrez la porte d'entrée. Elle donne sur un couloir qui comporte trois portes, toutes fermées.\nDe la porte de gauche, vous n'entendez aucun bruit.\nPar contre, depuis celle de droite, vous pouvez entendre un léger ronflement.\nMais c'est derrière celle qui est au fond qu'il semble se passer le plus de choses : des paroles de voix humaine se mêlent au langage strident de plusieurs gobelins.\nPour le moment, vous n'avez pas révélé votre présence et vous devriez en profiter.\nQuelle décision allez-vous prendre pour libérer Alembert ?",
+    "options": [
+      {
+        "title": "ouvrir la porte gauche",
+        "action": 41
+      },
+      {
+        "title": "ouvrir la porte droite",
+        "action": 47
+      },
+      {
+        "title": "ouvrir celle du fond",
+        "action": 53
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Mystères de Sylandra : page 36",
+    "text": "Vous prenez votre épée en main et vous vous approchez silencieusement de la cabane. Vous posez une oreille contre la porte et vous écoutez pendant plusieurs secondes. Vous n'entendez aucun bruit.\nPrudemment et en essayant de faire le moins de bruit possible, vous ouvrez la porte d'entrée. Elle donne sur un couloir qui comporte trois portes, toutes fermées.\nDe la porte de gauche, vous n'entendez aucun bruit.\nPar contre, depuis celle de droite, vous pouvez entendre un léger ronflement.\nMais c'est derrière celle qui est au fond qu'il semble se passer le plus de choses : des paroles de voix humaine se mêlent au langage strident de plusieurs gobelins.\nPour le moment, vous n'avez pas révélé votre présence et vous devriez en profiter.\nQuelle décision allez-vous prendre pour libérer Alembert ?",
+    "options": [
+      {
+        "title": "ouvrir la porte gauche",
+        "action": 42
+      },
+      {
+        "title": "ouvrir la porte droite",
+        "action": 48
+      },
+      {
+        "title": "ouvrir celle du fond",
+        "action": 54
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Mystères de Sylandra : page 37",
+    "text": "Vous prenez votre épée en main et vous vous approchez silencieusement de la cabane. Vous posez une oreille contre la porte et vous écoutez pendant plusieurs secondes. Vous n'entendez aucun bruit.\nPrudemment et en essayant de faire le moins de bruit possible, vous ouvrez la porte d'entrée. Elle donne sur un couloir qui comporte trois portes, toutes fermées.\nDe la porte de gauche, vous n'entendez aucun bruit.\nPar contre, depuis celle de droite, vous pouvez entendre un léger ronflement.\nMais c'est derrière celle qui est au fond qu'il semble se passer le plus de choses : des paroles de voix humaine se mêlent au langage strident de plusieurs gobelins.\nPour le moment, vous n'avez pas révélé votre présence et vous devriez en profiter.\nQuelle décision allez-vous prendre pour libérer Alembert ?",
+    "options": [
+      {
+        "title": "ouvrir la porte gauche",
+        "action": 43
+      },
+      {
+        "title": "ouvrir la porte droite",
+        "action": 49
+      },
+      {
+        "title": "ouvrir celle du fond",
+        "action": 55
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Mystères de Sylandra : page 38",
+    "text": "Vous prenez votre épée en main et vous vous approchez silencieusement de la cabane. Vous posez une oreille contre la porte et vous écoutez pendant plusieurs secondes. Vous n'entendez aucun bruit.\nPrudemment et en essayant de faire le moins de bruit possible, vous ouvrez la porte d'entrée. Elle donne sur un couloir qui comporte trois portes, toutes fermées.\nDe la porte de gauche, vous n'entendez aucun bruit.\nPar contre, depuis celle de droite, vous pouvez entendre un léger ronflement.\nMais c'est derrière celle qui est au fond qu'il semble se passer le plus de choses : des paroles de voix humaine se mêlent au langage strident de plusieurs gobelins.\nPour le moment, vous n'avez pas révélé votre présence et vous devriez en profiter.\nQuelle décision allez-vous prendre pour libérer Alembert ?",
+    "options": [
+      {
+        "title": "ouvrir la porte gauche",
+        "action": 44
+      },
+      {
+        "title": "ouvrir la porte droite",
+        "action": 50
+      },
+      {
+        "title": "ouvrir celle du fond",
+        "action": 56
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Mystères de Sylandra : page 39",
+    "text": "Vous ouvrez prudemment la porte gauche et entrez dans la pièce. Il s'agit d'une cuisine rustique, mais tout à fait fonctionnelle.\nUne table et deux chaises permettent d'y manger, tandis qu'une grande cheminée est là pour préparer des repas. Dans l'âtre, vous pouvez d'ailleurs voir de nombreuses branches mortes, prêtes à être utilisées pour faire un feu.\nEn voyant cela, vous regrettez de ne rien avoir sous la main. En effet, vous savez que les gobelins sont très friands de viande. Si vous aviez pu établir un piège, cela vous aurait grandement aidé dans votre tâche.\nMais inutile de perdre du temps en lamentations. Vous devez trouver une solution pour sauver Alembert.\nQuelle décision allez-vous prendre à présent ?",
+    "options": [
+      {
+        "title": "ouvrir la porte droite",
+        "action": 45
+      },
+      {
+        "title": "ouvrir celle du fond",
+        "action": 51
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Mystères de Sylandra : page 40",
+    "text": "Vous ouvrez prudemment la porte gauche et entrez dans la pièce. Il s'agit d'une cuisine rustique, mais tout à fait fonctionnelle.\nUne table et deux chaises permettent d'y manger, tandis qu'une grande cheminée est là pour préparer des repas. Dans l'âtre, vous pouvez d'ailleurs voir de nombreuses branches mortes, prêtes à être utilisées pour faire un feu.\nEn voyant cela, vous regrettez de n'avoir sur vous que le gigot de sanglier. En effet, vous savez que les gobelins sont très friands de viande. Si vous aviez pu établir un piège, cela vous aurait grandement aidé dans votre tâche. Malheureusement, il aurait fallu avoir plus d'ingrédients que votre simple gigot.\nMais inutile de perdre du temps en lamentations. Vous devez trouver une solution pour sauver Alembert.\nQuelle décision allez-vous prendre à présent ?",
+    "options": [
+      {
+        "title": "ouvrir la porte droite",
+        "action": 46
+      },
+      {
+        "title": "ouvrir celle du fond",
+        "action": 52
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Mystères de Sylandra : page 41",
+    "text": "Vous ouvrez prudemment la porte gauche et entrez dans la pièce. Il s'agit d'une cuisine rustique, mais tout à fait fonctionnelle. Une table et deux chaises permettent d'y manger, tandis qu'une grande cheminée est là pour préparer des repas. Dans l'âtre, vous pouvez d'ailleurs voir de nombreuses branches mortes, prêtes à être utilisées pour faire un feu.\nC'est en voyant cela qu'une idée géniale traverse votre esprit. Vous allez utiliser le gigot de sanglier et la fleur de beldiane pour piéger les gobelins. En effet, vous savez qu'ils sont friands de viande et qu'en plus, ils ne brillent pas par leur grande intelligence : les piéger devrait donc être assez simple.\nEn faisant le moins de bruit possible, vous démarrez le feu et installez le gigot sur une broche. Puis, vous prenez la fleur de beldiane et éparpillez son pistil sur tout le gigot, comme s'il s'agissait d'un simple condiment. Toujours en ne faisant aucun bruit, vous quittez la cabane et vous vous placez sous la fenêtre de la cuisine. Il ne vous reste plus qu'à attendre !\nQuelques minutes plus tard, alors que le gigot commence à exhaler quelques odeurs appétissantes, vous entendez les gobelins débouler dans la cuisine. Sans se poser aucune question, ils se jettent sur le gigot encore saignant en se chamaillant pour se le partager.\nEncore quelques minutes et vous n'entendez plus aucun bruit. Les gobelins empoisonnés par la beldiane viennent de passer de vie à trépas et il ne vous reste plus qu'à trouver Alembert. Il est dans son atelier, la pièce au fond du couloir.\nLe pauvre druide est encore sous le choc, mais il va bien. Lorsque vous revenez au château avec la potion du roi, ce dernier vous félicite chaleureusement et vous offre *10 pièces d'or* pour cette affaire si rondement menée.\n\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 42,
+    "title": "Mystères de Sylandra : page 42",
+    "text": "Vous ouvrez prudemment la porte gauche et entrez dans la pièce. Il s'agit d'une cuisine rustique, mais tout à fait fonctionnelle. Une table et deux chaises permettent d'y manger, tandis qu'une grande cheminée est là pour préparer des repas. Dans l'âtre, vous pouvez d'ailleurs voir de nombreuses branches mortes, prêtes à être utilisées pour faire un feu.\nC'est en voyant cela qu'une idée géniale traverse votre esprit. Vous allez utiliser le gigot de sanglier et la fleur de beldiane pour piéger les gobelins. En effet, vous savez qu'ils sont friands de viande et qu'en plus, ils ne brillent pas par leur grande intelligence : les piéger devrait donc être assez simple.\nEn faisant le moins de bruit possible, vous démarrez le feu et installez le gigot sur une broche. Puis, vous prenez la fleur de beldiane et éparpillez son pistil sur tout le gigot, comme s'il s'agissait d'un simple condiment. Toujours en ne faisant aucun bruit, vous quittez la cabane et vous vous placez sous la fenêtre de la cuisine. Il ne vous reste plus qu'à attendre !\nQuelques minutes plus tard, alors que le gigot commence à exhaler quelques odeurs appétissantes, vous entendez les gobelins débouler dans la cuisine. Sans se poser aucune question, ils se jettent sur le gigot encore saignant en se chamaillant pour se le partager.\nEncore quelques minutes et vous n'entendez plus aucun bruit. Les gobelins empoisonnés par la beldiane viennent de passer de vie à trépas et il ne vous reste plus qu'à trouver Alembert. Il est dans son atelier, la pièce au fond du couloir.\nLe pauvre druide est encore sous le choc, mais il va bien. Lorsque vous revenez au château avec la potion du roi, ce dernier vous félicite chaleureusement et vous offre *10 pièces d'or* pour cette affaire si rondement menée.\n\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 43,
+    "title": "Mystères de Sylandra : page 43",
+    "text": "Vous ouvrez prudemment la porte gauche et entrez dans la pièce. Il s'agit d'une cuisine rustique, mais tout à fait fonctionnelle. Une table et deux chaises permettent d'y manger, tandis qu'une grande cheminée est là pour préparer des repas. Dans l'âtre, vous pouvez d'ailleurs voir de nombreuses branches mortes, prêtes à être utilisées pour faire un feu.\nC'est en voyant cela qu'une idée géniale traverse votre esprit. Vous allez utiliser le gigot de sanglier et la fleur de beldiane pour piéger les gobelins. En effet, vous savez qu'ils sont friands de viande et qu'en plus, ils ne brillent pas par leur grande intelligence : les piéger devrait donc être assez simple.\nEn faisant le moins de bruit possible, vous démarrez le feu et installez le gigot sur une broche. Puis, vous prenez la fleur de beldiane et éparpillez son pistil sur tout le gigot, comme s'il s'agissait d'un simple condiment. Toujours en ne faisant aucun bruit, vous quittez la cabane et vous vous placez sous la fenêtre de la cuisine. Il ne vous reste plus qu'à attendre !\nQuelques minutes plus tard, alors que le gigot commence à exhaler quelques odeurs appétissantes, vous entendez les gobelins débouler dans la cuisine. Sans se poser aucune question, ils se jettent sur le gigot encore saignant en se chamaillant pour se le partager.\nEncore quelques minutes et vous n'entendez plus aucun bruit. Les gobelins empoisonnés par la beldiane viennent de passer de vie à trépas et il ne vous reste plus qu'à trouver Alembert. Il est dans son atelier, la pièce au fond du couloir.\nLe pauvre druide est encore sous le choc, mais il va bien. Lorsque vous revenez au château avec la potion du roi, ce dernier vous félicite chaleureusement et vous offre *10 pièces d'or* pour cette affaire si rondement menée.\n\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 44,
+    "title": "Mystères de Sylandra : page 44",
+    "text": "Vous ouvrez prudemment la porte gauche et entrez dans la pièce. Il s'agit d'une cuisine rustique, mais tout à fait fonctionnelle. Une table et deux chaises permettent d'y manger, tandis qu'une grande cheminée est là pour préparer des repas. Dans l'âtre, vous pouvez d'ailleurs voir de nombreuses branches mortes, prêtes à être utilisées pour faire un feu.\nC'est en voyant cela qu'une idée géniale traverse votre esprit. Vous allez utiliser le gigot de sanglier et la fleur de beldiane pour piéger les gobelins. En effet, vous savez qu'ils sont friands de viande et qu'en plus, ils ne brillent pas par leur grande intelligence : les piéger devrait donc être assez simple.\nEn faisant le moins de bruit possible, vous démarrez le feu et installez le gigot sur une broche. Puis, vous prenez la fleur de beldiane et éparpillez son pistil sur tout le gigot, comme s'il s'agissait d'un simple condiment. Toujours en ne faisant aucun bruit, vous quittez la cabane et vous vous placez sous la fenêtre de la cuisine. Il ne vous reste plus qu'à attendre !\nQuelques minutes plus tard, alors que le gigot commence à exhaler quelques odeurs appétissantes, vous entendez les gobelins débouler dans la cuisine. Sans se poser aucune question, ils se jettent sur le gigot encore saignant en se chamaillant pour se le partager.\nEncore quelques minutes et vous n'entendez plus aucun bruit. Les gobelins empoisonnés par la beldiane viennent de passer de vie à trépas et il ne vous reste plus qu'à trouver Alembert. Il est dans son atelier, la pièce au fond du couloir.\nLe pauvre druide est encore sous le choc, mais il va bien. Lorsque vous revenez au château avec la potion du roi, ce dernier vous félicite chaleureusement et vous offre *10 pièces d'or* pour cette affaire si rondement menée.\n\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 45,
+    "title": "Mystères de Sylandra : page 45",
+    "text": "Vous entrez silencieusement dans la pièce de droite. Vous constatez aussitôt qu'il s'agit d'une chambre. Elle est meublée d'une armoire, d'un petit coffre, mais surtout d'un lit. Et sur ce lit, un gobelin est en train de dormir et même de ronfler ! Il est vêtu d'une armure de cuir et à sa ceinture, il porte une épée courte protégée par un fourreau.\nMême face à des créatures aussi viles que des gobelins, vous préférez un bon combat loyal, fait dans les règles de l'art, à un lâche assassinat. Toutefois dans le cas présent, la question se pose avec insistance !\nEn effet, vous ignorez combien de gobelins sont dans la pièce du fond et vous savez qu'Alembert est en grand danger. Vous devez l'aider, mais pourrez-vous faire face à l'ensemble des créatures présentes ?\nAvec beaucoup de répugnance, vous prenez un des coussins du lit et vous le plaquez brusquement sur le visage du gobelin endormi. Celui-ci se réveille en sursaut et tente de se dégager en vain.\nVotre force est suffisante pour le maintenir et le coussin atténue grandement ses petits cris. Au bout que deux minutes, la créature ne bouge plus et personne n'a été alerté.",
+    "options": [
+      {
+        "title": "ouvrir la porte gauche",
+        "action": 57
+      },
+      {
+        "title": "ouvrir celle du fond",
+        "action": 59
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Mystères de Sylandra : page 46",
+    "text": "Vous entrez silencieusement dans la pièce de droite. Vous constatez aussitôt qu'il s'agit d'une chambre. Elle est meublée d'une armoire, d'un petit coffre, mais surtout d'un lit. Et sur ce lit, un gobelin est en train de dormir et même de ronfler ! Il est vêtu d'une armure de cuir et à sa ceinture, il porte une épée courte protégée par un fourreau.\nMême face à des créatures aussi viles que des gobelins, vous préférez un bon combat loyal, fait dans les règles de l'art, à un lâche assassinat. Toutefois dans le cas présent, la question se pose avec insistance !\nEn effet, vous ignorez combien de gobelins sont dans la pièce du fond et vous savez qu'Alembert est en grand danger. Vous devez l'aider, mais pourrez-vous faire face à l'ensemble des créatures présentes ?\nAvec beaucoup de répugnance, vous prenez un des coussins du lit et vous le plaquez brusquement sur le visage du gobelin endormi. Celui-ci se réveille en sursaut et tente de se dégager en vain.\nVotre force est suffisante pour le maintenir et le coussin atténue grandement ses petits cris. Au bout que deux minutes, la créature ne bouge plus et personne n'a été alerté.",
+    "options": [
+      {
+        "title": "ouvrir la porte gauche",
+        "action": 58
+      },
+      {
+        "title": "ouvrir celle du fond",
+        "action": 60
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Mystères de Sylandra : page 47",
+    "text": "Vous entrez silencieusement dans la pièce de droite. Vous constatez aussitôt qu'il s'agit d'une chambre. Elle est meublée d'une armoire, d'un petit coffre, mais surtout d'un lit. Et sur ce lit, un gobelin est en train de dormir et même de ronfler ! Il est vêtu d'une armure de cuir et à sa ceinture, il porte une épée courte protégée par un fourreau.\nMême face à des créatures aussi viles que des gobelins, vous préférez un bon combat loyal, fait dans les règles de l'art, à un lâche assassinat. Toutefois dans le cas présent, la question se pose avec insistance !\nEn effet, vous ignorez combien de gobelins sont dans la pièce du fond et vous savez qu'Alembert est en grand danger. Vous devez l'aider, mais pourrez-vous faire face à l'ensemble des créatures présentes ?\nAvec beaucoup de répugnance, vous prenez un des coussins du lit et vous le plaquez brusquement sur le visage du gobelin endormi. Celui-ci se réveille en sursaut et tente de se dégager en vain.\nVotre force est suffisante pour le maintenir et le coussin atténue grandement ses petits cris. Au bout que deux minutes, la créature ne bouge plus et personne n'a été alerté.",
+    "options": [
+      {
+        "title": "ouvrir la porte gauche",
+        "action": 41
+      },
+      {
+        "title": "ouvrir celle du fond",
+        "action": 61
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Mystères de Sylandra : page 48",
+    "text": "Vous entrez silencieusement dans la pièce de droite. Vous constatez aussitôt qu'il s'agit d'une chambre. Elle est meublée d'une armoire, d'un petit coffre, mais surtout d'un lit. Et sur ce lit, un gobelin est en train de dormir et même de ronfler ! Il est vêtu d'une armure de cuir et à sa ceinture, il porte une épée courte protégée par un fourreau.\nMême face à des créatures aussi viles que des gobelins, vous préférez un bon combat loyal, fait dans les règles de l'art, à un lâche assassinat. Toutefois dans le cas présent, la question se pose avec insistance !\nEn effet, vous ignorez combien de gobelins sont dans la pièce du fond et vous savez qu'Alembert est en grand danger. Vous devez l'aider, mais pourrez-vous faire face à l'ensemble des créatures présentes ?\nAvec beaucoup de répugnance, vous prenez un des coussins du lit et vous le plaquez brusquement sur le visage du gobelin endormi. Celui-ci se réveille en sursaut et tente de se dégager en vain.\nVotre force est suffisante pour le maintenir et le coussin atténue grandement ses petits cris. Au bout que deux minutes, la créature ne bouge plus et personne n'a été alerté.",
+    "options": [
+      {
+        "title": "ouvrir la porte gauche",
+        "action": 42
+      },
+      {
+        "title": "ouvrir celle du fond",
+        "action": 62
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Mystères de Sylandra : page 49",
+    "text": "Vous entrez silencieusement dans la pièce de droite. Vous constatez aussitôt qu'il s'agit d'une chambre. Elle est meublée d'une armoire, d'un petit coffre, mais surtout d'un lit. Et sur ce lit, un gobelin est en train de dormir et même de ronfler ! Il est vêtu d'une armure de cuir et à sa ceinture, il porte une épée courte protégée par un fourreau.\nMême face à des créatures aussi viles que des gobelins, vous préférez un bon combat loyal, fait dans les règles de l'art, à un lâche assassinat. Toutefois dans le cas présent, la question se pose avec insistance !\nEn effet, vous ignorez combien de gobelins sont dans la pièce du fond et vous savez qu'Alembert est en grand danger. Vous devez l'aider, mais pourrez-vous faire face à l'ensemble des créatures présentes ?\nAvec beaucoup de répugnance, vous prenez un des coussins du lit et vous le plaquez brusquement sur le visage du gobelin endormi. Celui-ci se réveille en sursaut et tente de se dégager en vain.\nVotre force est suffisante pour le maintenir et le coussin atténue grandement ses petits cris. Au bout que deux minutes, la créature ne bouge plus et personne n'a été alerté.",
+    "options": [
+      {
+        "title": "ouvrir la porte gauche",
+        "action": 43
+      },
+      {
+        "title": "ouvrir celle du fond",
+        "action": 63
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Mystères de Sylandra : page 50",
+    "text": "Vous entrez silencieusement dans la pièce de droite. Vous constatez aussitôt qu'il s'agit d'une chambre. Elle est meublée d'une armoire, d'un petit coffre, mais surtout d'un lit. Et sur ce lit, un gobelin est en train de dormir et même de ronfler ! Il est vêtu d'une armure de cuir et à sa ceinture, il porte une épée courte protégée par un fourreau.\nMême face à des créatures aussi viles que des gobelins, vous préférez un bon combat loyal, fait dans les règles de l'art, à un lâche assassinat. Toutefois dans le cas présent, la question se pose avec insistance !\nEn effet, vous ignorez combien de gobelins sont dans la pièce du fond et vous savez qu'Alembert est en grand danger. Vous devez l'aider, mais pourrez-vous faire face à l'ensemble des créatures présentes ?\nAvec beaucoup de répugnance, vous prenez un des coussins du lit et vous le plaquez brusquement sur le visage du gobelin endormi. Celui-ci se réveille en sursaut et tente de se dégager en vain.\nVotre force est suffisante pour le maintenir et le coussin atténue grandement ses petits cris. Au bout que deux minutes, la créature ne bouge plus et personne n'a été alerté.",
+    "options": [
+      {
+        "title": "ouvrir la porte gauche",
+        "action": 44
+      },
+      {
+        "title": "ouvrir celle du fond",
+        "action": 64
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Mystères de Sylandra : page 51",
+    "text": "Vous avez l'avantage de la surprise ! Vous décidez donc d'ouvrir la porte d'un grand coup de pied et vous déboulez dans la pièce en hurlant, l'épée à la main.\nDans ce qui semble être l'atelier du druide, vous voyez quatre gobelins stupéfaits se retourner vers vous. Non loin d'eux, ligoté sur une chaise, Alembert vous regarde tout aussi étonné que les créatures qui le maintienne prisonnier !\nVous profitez du flottement pour vous précipiter vers vos opposants. D'un coup d'épée bien placé, vous éliminez un premier gobelin avant que celui-ci n'ait le temps de prendre son arme.\nVous faites ensuite face aux trois autres, persuadé que vous arriverez à les avoir rapidement. C'est alors que vous entendez Alembert s'écrier :\n- Non attendez ! Non, il y en a un...\nVous ressentez une douleur incroyable dans le dos !\n- ... derrière vous ! termine Alembert dans un souffle.\nVous réalisez alors qu'un cinquième gobelin est sorti d'une des pièces que vous n'aviez pas visitées et vous a attaqué par-derrière.\nAlors que vous sentez la vie vous quitter, vous vous dites que vous serez plus prudent... dans une autre vie !\n\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 52,
+    "title": "Mystères de Sylandra : page 52",
+    "text": "Vous avez l'avantage de la surprise ! Vous décidez donc d'ouvrir la porte d'un grand coup de pied et vous déboulez dans la pièce en hurlant, l'épée à la main.\nDans ce qui semble être l'atelier du druide, vous voyez quatre gobelins stupéfaits se retourner vers vous. Non loin d'eux, ligoté sur une chaise, Alembert vous regarde tout aussi étonné que les créatures qui le maintienne prisonnier !\nVous profitez du flottement pour vous précipiter vers vos opposants. D'un coup d'épée bien placé, vous éliminez un premier gobelin avant que celui-ci n'ait le temps de prendre son arme.\nVous faites ensuite face aux trois autres, persuadé que vous arriverez à les avoir rapidement. C'est alors que vous entendez Alembert s'écrier :\n- Non attendez ! Non, il y en a un...\nVous ressentez une douleur incroyable dans le dos !\n- ... derrière vous ! termine Alembert dans un souffle.\nVous réalisez alors qu'un cinquième gobelin est sorti d'une des pièces que vous n'aviez pas visitées et vous a attaqué par-derrière.\nAlors que vous sentez la vie vous quitter, vous vous dites que vous serez plus prudent... dans une autre vie !\n\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 53,
+    "title": "Mystères de Sylandra : page 53",
+    "text": "Vous avez l'avantage de la surprise ! Vous décidez donc d'ouvrir la porte d'un grand coup de pied et vous déboulez dans la pièce en hurlant, l'épée à la main.\nDans ce qui semble être l'atelier du druide, vous voyez quatre gobelins stupéfaits se retourner vers vous. Non loin d'eux, ligoté sur une chaise, Alembert vous regarde tout aussi étonné que les créatures qui le maintienne prisonnier !\nVous profitez du flottement pour vous précipiter vers vos opposants. D'un coup d'épée bien placé, vous éliminez un premier gobelin avant que celui-ci n'ait le temps de prendre son arme.\nVous faites ensuite face aux trois autres, persuadé que vous arriverez à les avoir rapidement. C'est alors que vous entendez Alembert s'écrier :\n- Non attendez ! Non, il y en a un...\nVous ressentez une douleur incroyable dans le dos !\n- ... derrière vous ! termine Alembert dans un souffle.\nVous réalisez alors qu'un cinquième gobelin est sorti d'une des pièces que vous n'aviez pas visitées et vous a attaqué par-derrière.\nAlors que vous sentez la vie vous quitter, vous vous dites que vous serez plus prudent... dans une autre vie !\n\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 54,
+    "title": "Mystères de Sylandra : page 54",
+    "text": "Vous avez l'avantage de la surprise ! Vous décidez donc d'ouvrir la porte d'un grand coup de pied et vous déboulez dans la pièce en hurlant, l'épée à la main.\nDans ce qui semble être l'atelier du druide, vous voyez quatre gobelins stupéfaits se retourner vers vous. Non loin d'eux, ligoté sur une chaise, Alembert vous regarde tout aussi étonné que les créatures qui le maintienne prisonnier !\nVous profitez du flottement pour vous précipiter vers vos opposants. D'un coup d'épée bien placé, vous éliminez un premier gobelin avant que celui-ci n'ait le temps de prendre son arme.\nVous faites ensuite face aux trois autres, persuadé que vous arriverez à les avoir rapidement. C'est alors que vous entendez Alembert s'écrier :\n- Non attendez ! Non, il y en a un...\nVous ressentez une douleur incroyable dans le dos !\n- ... derrière vous ! termine Alembert dans un souffle.\nVous réalisez alors qu'un cinquième gobelin est sorti d'une des pièces que vous n'aviez pas visitées et vous a attaqué par-derrière.\nAlors que vous sentez la vie vous quitter, vous vous dites que vous serez plus prudent... dans une autre vie !\n\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 55,
+    "title": "Mystères de Sylandra : page 55",
+    "text": "Vous avez l'avantage de la surprise ! Vous décidez donc d'ouvrir la porte d'un grand coup de pied et vous déboulez dans la pièce en hurlant, l'épée à la main.\nDans ce qui semble être l'atelier du druide, vous voyez quatre gobelins stupéfaits se retourner vers vous. Non loin d'eux, ligoté sur une chaise, Alembert vous regarde tout aussi étonné que les créatures qui le maintienne prisonnier !\nVous profitez du flottement pour vous précipiter vers vos opposants. D'un coup d'épée bien placé, vous éliminez un premier gobelin avant que celui-ci n'ait le temps de prendre son arme.\nVous faites ensuite face aux trois autres, persuadé que vous arriverez à les avoir rapidement. C'est alors que vous entendez Alembert s'écrier :\n- Non attendez ! Non, il y en a un...\nVous ressentez une douleur incroyable dans le dos !\n- ... derrière vous ! termine Alembert dans un souffle.\nVous réalisez alors qu'un cinquième gobelin est sorti d'une des pièces que vous n'aviez pas visitées et vous a attaqué par-derrière.\nAlors que vous sentez la vie vous quitter, vous vous dites que vous serez plus prudent... dans une autre vie !\n\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 56,
+    "title": "Mystères de Sylandra : page 56",
+    "text": "Vous avez l'avantage de la surprise ! Vous décidez donc d'ouvrir la porte d'un grand coup de pied et vous déboulez dans la pièce en hurlant, l'épée à la main.\nDans ce qui semble être l'atelier du druide, vous voyez quatre gobelins stupéfaits se retourner vers vous. Non loin d'eux, ligoté sur une chaise, Alembert vous regarde tout aussi étonné que les créatures qui le maintienne prisonnier !\nVous profitez du flottement pour vous précipiter vers vos opposants. D'un coup d'épée bien placé, vous éliminez un premier gobelin avant que celui-ci n'ait le temps de prendre son arme.\nVous faites ensuite face aux trois autres, persuadé que vous arriverez à les avoir rapidement. C'est alors que vous entendez Alembert s'écrier :\n- Non attendez ! Non, il y en a un...\nVous ressentez une douleur incroyable dans le dos !\n- ... derrière vous ! termine Alembert dans un souffle.\nVous réalisez alors qu'un cinquième gobelin est sorti d'une des pièces que vous n'aviez pas visitées et vous a attaqué par-derrière.\nAlors que vous sentez la vie vous quitter, vous vous dites que vous serez plus prudent... dans une autre vie !\n\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 57,
+    "title": "Mystères de Sylandra : page 57",
+    "text": "Vous ouvrez prudemment la porte gauche et entrez dans la pièce. Il s'agit d'une cuisine rustique, mais tout à fait fonctionnelle.\nUne table et deux chaises permettent d'y manger, tandis qu'une grande cheminée est là pour préparer des repas. Dans l'âtre, vous pouvez d'ailleurs voir de nombreuses branches mortes, prêtes à être utilisées pour faire un feu.\nEn voyant cela, vous regrettez de ne rien avoir sous la main. En effet, vous savez que les gobelins sont très friands de viande. Si vous aviez pu établir un piège, cela vous aurait grandement aidé dans votre tâche.\nMais inutile de perdre du temps en lamentations. Vous devez trouver une solution pour sauver Alembert.\nIl ne vous reste maintenant plus qu'à aller voir ce qu'il se passe dans la pièce du fond !",
+    "options": [
+      {
+        "title": "ouvrir la porte du fond",
+        "action": 59
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Mystères de Sylandra : page 58",
+    "text": "Vous ouvrez prudemment la porte gauche et entrez dans la pièce. Il s'agit d'une cuisine rustique, mais tout à fait fonctionnelle.\nUne table et deux chaises permettent d'y manger, tandis qu'une grande cheminée est là pour préparer des repas. Dans l'âtre, vous pouvez d'ailleurs voir de nombreuses branches mortes, prêtes à être utilisées pour faire un feu.\nEn voyant cela, vous regrettez de n'avoir sur vous que le gigot de sanglier. En effet, vous savez que les gobelins sont très friands de viande. Si vous aviez pu établir un piège, cela vous aurait grandement aidé dans votre tâche. Malheureusement, il aurait fallu avoir plus d'ingrédients que votre simple gigot.\nMais inutile de perdre du temps en lamentations. Vous devez trouver une solution pour sauver Alembert.\nIl ne vous reste maintenant plus qu'à aller voir ce qu'il se passe dans la pièce du fond !",
+    "options": [
+      {
+        "title": "ouvrir la porte du fond",
+        "action": 60
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Mystères de Sylandra : page 59",
+    "text": "Vous avez l'avantage de la surprise ! Vous décidez donc d'ouvrir la porte d'un grand coup de pied et vous déboulez dans la pièce en hurlant, l'épée à la main.\nDans ce qui semble être l'atelier du druide, vous voyez quatre gobelins stupéfaits se retourner vers vous. Non loin d'eux, ligoté sur une chaise, Alembert vous regarde tout aussi étonné que les créatures qui le maintienne prisonnier !\nVous profitez du flottement pour vous précipiter vers vos opposants. D'un coup d'épée bien placé, vous éliminez un premier gobelin avant que celui-ci n'ait le temps de prendre son arme.\nVous faites ensuite face aux trois autres. Ils sont en train de prendre leurs armes avant de se précipiter vers vous, leurs petits yeux rouges luisant de colère.\nAvant que le combat ne s'engage véritablement, vous pouvez prendre une dernière décision.",
+    "options": [
+      {
+        "title": "combattre au milieu de la pièce",
+        "action": 71
+      },
+      {
+        "title": "refluer dans le couloir et y attendre vos adversaires",
+        "action": 65
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Mystères de Sylandra : page 60",
+    "text": "Vous avez l'avantage de la surprise ! Vous décidez donc d'ouvrir la porte d'un grand coup de pied et vous déboulez dans la pièce en hurlant, l'épée à la main.\nDans ce qui semble être l'atelier du druide, vous voyez quatre gobelins stupéfaits se retourner vers vous. Non loin d'eux, ligoté sur une chaise, Alembert vous regarde tout aussi étonné que les créatures qui le maintienne prisonnier !\nVous profitez du flottement pour vous précipiter vers vos opposants. D'un coup d'épée bien placé, vous éliminez un premier gobelin avant que celui-ci n'ait le temps de prendre son arme.\nVous faites ensuite face aux trois autres. Ils sont en train de prendre leurs armes avant de se précipiter vers vous, leurs petits yeux rouges luisant de colère.\nAvant que le combat ne s'engage véritablement, vous pouvez prendre une dernière décision.",
+    "options": [
+      {
+        "title": "combattre au milieu de la pièce",
+        "action": 71
+      },
+      {
+        "title": "refluer dans le couloir et y attendre vos adversaires",
+        "action": 66
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Mystères de Sylandra : page 61",
+    "text": "Vous avez l'avantage de la surprise ! Vous décidez donc d'ouvrir la porte d'un grand coup de pied et vous déboulez dans la pièce en hurlant, l'épée à la main.\nDans ce qui semble être l'atelier du druide, vous voyez quatre gobelins stupéfaits se retourner vers vous. Non loin d'eux, ligoté sur une chaise, Alembert vous regarde tout aussi étonné que les créatures qui le maintienne prisonnier !\nVous profitez du flottement pour vous précipiter vers vos opposants. D'un coup d'épée bien placé, vous éliminez un premier gobelin avant que celui-ci n'ait le temps de prendre son arme.\nVous faites ensuite face aux trois autres. Ils sont en train de prendre leurs armes avant de se précipiter vers vous, leurs petits yeux rouges luisant de colère.\nAvant que le combat ne s'engage véritablement, vous pouvez prendre une dernière décision.",
+    "options": [
+      {
+        "title": "combattre au milieu de la pièce",
+        "action": 71
+      },
+      {
+        "title": "refluer dans le couloir et y attendre vos adversaires",
+        "action": 67
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Mystères de Sylandra : page 62",
+    "text": "Vous avez l'avantage de la surprise ! Vous décidez donc d'ouvrir la porte d'un grand coup de pied et vous déboulez dans la pièce en hurlant, l'épée à la main.\nDans ce qui semble être l'atelier du druide, vous voyez quatre gobelins stupéfaits se retourner vers vous. Non loin d'eux, ligoté sur une chaise, Alembert vous regarde tout aussi étonné que les créatures qui le maintienne prisonnier !\nVous profitez du flottement pour vous précipiter vers vos opposants. D'un coup d'épée bien placé, vous éliminez un premier gobelin avant que celui-ci n'ait le temps de prendre son arme.\nVous faites ensuite face aux trois autres. Ils sont en train de prendre leurs armes avant de se précipiter vers vous, leurs petits yeux rouges luisant de colère.\nAvant que le combat ne s'engage véritablement, vous pouvez prendre une dernière décision.",
+    "options": [
+      {
+        "title": "combattre au milieu de la pièce",
+        "action": 71
+      },
+      {
+        "title": "refluer dans le couloir et y attendre vos adversaires",
+        "action": 68
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Mystères de Sylandra : page 63",
+    "text": "Vous avez l'avantage de la surprise ! Vous décidez donc d'ouvrir la porte d'un grand coup de pied et vous déboulez dans la pièce en hurlant, l'épée à la main.\nDans ce qui semble être l'atelier du druide, vous voyez quatre gobelins stupéfaits se retourner vers vous. Non loin d'eux, ligoté sur une chaise, Alembert vous regarde tout aussi étonné que les créatures qui le maintienne prisonnier !\nVous profitez du flottement pour vous précipiter vers vos opposants. D'un coup d'épée bien placé, vous éliminez un premier gobelin avant que celui-ci n'ait le temps de prendre son arme.\nVous faites ensuite face aux trois autres. Ils sont en train de prendre leurs armes avant de se précipiter vers vous, leurs petits yeux rouges luisant de colère.\nAvant que le combat ne s'engage véritablement, vous pouvez prendre une dernière décision.",
+    "options": [
+      {
+        "title": "combattre au milieu de la pièce",
+        "action": 71
+      },
+      {
+        "title": "refluer dans le couloir et y attendre vos adversaires",
+        "action": 69
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Mystères de Sylandra : page 64",
+    "text": "Vous avez l'avantage de la surprise ! Vous décidez donc d'ouvrir la porte d'un grand coup de pied et vous déboulez dans la pièce en hurlant, l'épée à la main.\nDans ce qui semble être l'atelier du druide, vous voyez quatre gobelins stupéfaits se retourner vers vous. Non loin d'eux, ligoté sur une chaise, Alembert vous regarde tout aussi étonné que les créatures qui le maintienne prisonnier !\nVous profitez du flottement pour vous précipiter vers vos opposants. D'un coup d'épée bien placé, vous éliminez un premier gobelin avant que celui-ci n'ait le temps de prendre son arme.\nVous faites ensuite face aux trois autres. Ils sont en train de prendre leurs armes avant de se précipiter vers vous, leurs petits yeux rouges luisant de colère.\nAvant que le combat ne s'engage véritablement, vous pouvez prendre une dernière décision.",
+    "options": [
+      {
+        "title": "combattre au milieu de la pièce",
+        "action": 71
+      },
+      {
+        "title": "refluer dans le couloir et y attendre vos adversaires",
+        "action": 70
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Mystères de Sylandra : page 65",
+    "text": "Les gobelins sont stupides, mais ils ont l'habitude de combattre en bande. Ils savent que la meilleure façon d'abattre un adversaire plus puissant qu'eux est de le prendre en tenaille.\n    Vous connaissez leurs tactiques et vous décidez de ne pas leur faciliter la tâche. Vous reculez dans le couloir pour pouvoir les combattre un à un.\nDu coup, les choses tournent rapidement en votre faveur. Même si pendant le combat vous perdez *12 points de vie*, vous êtes bientôt victorieux et, tout en émettant un soupir de soulagement, vous libérez le pauvre druide.\nIl vous reste *8 points de vie* et avant de vous laisser repartir le lendemain, Alembert s'emploie à soigner vos blessures pour vous remercier.\nLorsque vous revenez au château avec la potion du roi, ce dernier vous félicite chaleureusement. Il vous offre également *15 pièces d'or* pour cette affaire si rondement menée, ainsi que pour avoir éliminé cinq gobelins de son royaume.\nIl ne vous reste plus maintenant qu'à aller vous reposer en attendant votre prochaine aventure !\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 66,
+    "title": "Mystères de Sylandra : page 66",
+    "text": "Les gobelins sont stupides, mais ils ont l'habitude de combattre en bande. Ils savent que la meilleure façon d'abattre un adversaire plus puissant qu'eux est de le prendre en tenaille.\n    Vous connaissez leurs tactiques et vous décidez de ne pas leur faciliter la tâche. Vous reculez dans le couloir pour pouvoir les combattre un à un.\nDu coup, les choses tournent rapidement en votre faveur. Même si pendant le combat vous perdez *12 points de vie*, vous êtes bientôt victorieux et, tout en émettant un soupir de soulagement, vous libérez le pauvre druide.\nIl vous reste *8 points de vie* et avant de vous laisser repartir le lendemain, Alembert s'emploie à soigner vos blessures pour vous remercier.\nLorsque vous revenez au château avec la potion du roi, ce dernier vous félicite chaleureusement. Il vous offre également *15 pièces d'or* pour cette affaire si rondement menée, ainsi que pour avoir éliminé cinq gobelins de son royaume.\nIl ne vous reste plus maintenant qu'à aller vous reposer en attendant votre prochaine aventure !\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 67,
+    "title": "Mystères de Sylandra : page 67",
+    "text": "Les gobelins sont stupides, mais ils ont l'habitude de combattre en bande. Ils savent que la meilleure façon d'abattre un adversaire plus puissant qu'eux est de le prendre en tenaille.\n    Vous connaissez leurs tactiques et vous décidez de ne pas leur faciliter la tâche. Vous reculez dans le couloir pour pouvoir les combattre un à un.\nDu coup, les choses tournent rapidement en votre faveur. Même si pendant le combat vous perdez *12 points de vie*, vous êtes bientôt victorieux et, tout en émettant un soupir de soulagement, vous libérez le pauvre druide.\nIl vous reste *8 points de vie* et avant de vous laisser repartir le lendemain, Alembert s'emploie à soigner vos blessures pour vous remercier.\nLorsque vous revenez au château avec la potion du roi, ce dernier vous félicite chaleureusement. Il vous offre également *15 pièces d'or* pour cette affaire si rondement menée, ainsi que pour avoir éliminé cinq gobelins de son royaume.\nIl ne vous reste plus maintenant qu'à aller vous reposer en attendant votre prochaine aventure !\n*FIN*.",
+    "options": [
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Mystères de Sylandra : page 68",
+    "text": "Les gobelins sont stupides, mais ils ont l'habitude de combattre en bande. Ils savent que la meilleure façon d'abattre un adversaire plus puissant qu'eux est de le prendre en tenaille.\nVous connaissez leurs tactiques et vous décidez de ne pas leur faciliter la tâche. Vous reculez dans le couloir pour pouvoir les combattre un à un.\nDu coup, les choses tournent rapidement en votre faveur. Même si pendant le combat vous perdez *12 points de vie*, vous êtes bientôt victorieux et, tout en émettant un soupir de soulagement, vous libérez le pauvre druide.\nIl vous reste *7 points de vie* et avant de vous laisser repartir le lendemain, Alembert s'emploie à soigner vos blessures pour vous remercier.\nLorsque vous revenez au château avec la potion du roi, ce dernier vous félicite chaleureusement. Il vous offre également *15 pièces d'or* pour cette affaire si rondement menée, ainsi que pour avoir éliminé cinq gobelins de son royaume.\nIl ne vous reste plus maintenant qu'à aller vous reposer en attendant votre prochaine aventure !\n\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 69,
+    "title": "Mystères de Sylandra : page 69",
+    "text": "Les gobelins sont stupides, mais ils ont l'habitude de combattre en bande. Ils savent que la meilleure façon d'abattre un adversaire plus puissant qu'eux est de le prendre en tenaille.\nVous connaissez leurs tactiques et vous décidez de ne pas leur faciliter la tâche. Vous reculez dans le couloir pour pouvoir les combattre un à un.\nDu coup, les choses tournent rapidement en votre faveur. Même si pendant le combat vous perdez *12 points de vie*, vous êtes bientôt victorieux et, tout en émettant un soupir de soulagement, vous libérez le pauvre druide.\nIl vous reste *3 points de vie* et avant de vous laisser repartir le lendemain, Alembert s'emploie à soigner vos blessures pour vous remercier.\nLorsque vous revenez au château avec la potion du roi, ce dernier vous félicite chaleureusement. Il vous offre également *15 pièces d'or* pour cette affaire si rondement menée, ainsi que pour avoir éliminé cinq gobelins de son royaume.\nIl ne vous reste plus maintenant qu'à aller vous reposer en attendant votre prochaine aventure !\n\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 70,
+    "title": "Mystères de Sylandra : page 70",
+    "text": "Les gobelins sont stupides, mais ils ont l'habitude de combattre en bande. Ils savent que la meilleure façon d'abattre un adversaire plus puissant qu'eux est de le prendre en tenaille.\nVous connaissez leurs tactiques et vous décidez de ne pas leur faciliter la tâche. Vous reculez dans le couloir pour pouvoir les combattre un à un.\nDu coup, les choses tournent rapidement en votre faveur. Même si pendant le combat vous perdez *12 points de vie*, vous êtes bientôt victorieux et, tout en émettant un soupir de soulagement, vous libérez le pauvre druide.\nIl vous reste *2 points de vie* et avant de vous laisser repartir le lendemain, Alembert s'emploie à soigner vos blessures pour vous remercier.\nLorsque vous revenez au château avec la potion du roi, ce dernier vous félicite chaleureusement. Il vous offre également *15 pièces d'or* pour cette affaire si rondement menée, ainsi que pour avoir éliminé cinq gobelins de son royaume.\nIl ne vous reste plus maintenant qu'à aller vous reposer en attendant votre prochaine aventure !\n\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 71,
+    "title": "Mystères de Sylandra : page 71",
+    "text": "Les gobelins sont stupides, mais ils ont l'habitude de combattre en bande. Ils savent que la meilleure façon d'abattre un adversaire plus puissant qu'eux est de le prendre en tenaille.\nLes trois gobelins se positionnent tout autour de vous et vous bloquent même la porte de sortie. Vous sentez un frisson parcourir votre échine.\nIls se lancent sur vous au même moment, ce qui ne vous permet pas de bloquer tous les coups. Vous recevez plusieurs blessures profondes, tandis que vous arrivez à éliminer deux de vos adversaires.\nMalheureusement, vos forces vous lâchent au moment où vous alliez avoir le troisième gobelin. Ce dernier vous regarde vous effondrer au sol avec un petit rire strident.\n- Noooon ! crie Alembert toujours attaché à sa chaise.\nAlors que vous sentez la vie vous quitter, vous vous dites que vous apprendrez la stratégie... dans une autre vie !\n\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 72,
+    "title": "Mystères de Sylandra : page 72",
+    "text": "Vous vous approchez de la cabane et vous frappez à la porte. Vous attendez ensuite quelques secondes que le druide vienne vous ouvrir.\nAu bout d'une minute complète d'attente, vous vous décidez enfin à ouvrir la porte et à entrez dans la cabane. Au moment où vous mettez le pied dans le couloir, vous sentez une immense douleur vous parcourir le bras droit.\nSurpris, vous vous retournez et constatez qu'un gobelin vous attendait épée en main derrière la porte. C'est lui qui vient de vous frapper. Vous avez perdu *5 points de vie*.\nVous ressaisissant rapidement, vous prenez votre épée pour combattre. C'est alors que vous voyez débouler quatre autres gobelins qui sortent d'une porte du fond du couloir.\nFort heureusement, le couloir est trop étroit et vos adversaires ne peuvent pas vous combattre tous en même temps, ce qui est un petit avantage pour vous.\nVous restez donc dans le couloir pour les avoir les uns après les autres.",
+    "options": [
+      {
+        "title": "Suite du combat",
+        "action": 78
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Mystères de Sylandra : page 73",
+    "text": "Vous vous approchez de la cabane et vous frappez à la porte. Vous attendez ensuite quelques secondes que le druide vienne vous ouvrir.\nAu bout d'une minute complète d'attente, vous vous décidez enfin à ouvrir la porte et à entrez dans la cabane. Au moment où vous mettez le pied dans le couloir, vous sentez une immense douleur vous parcourir le bras droit.\nSurpris, vous vous retournez et constatez qu'un gobelin vous attendait épée en main derrière la porte. C'est lui qui vient de vous frapper. Vous avez perdu *5 points de vie*.\nVous ressaisissant rapidement, vous prenez votre épée pour combattre. C'est alors que vous voyez débouler quatre autres gobelins qui sortent d'une porte du fond du couloir.\nFort heureusement, le couloir est trop étroit et vos adversaires ne peuvent pas vous combattre tous en même temps, ce qui est un petit avantage pour vous.\nVous restez donc dans le couloir pour les avoir les uns après les autres.",
+    "options": [
+      {
+        "title": "Suite du combat",
+        "action": 78
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Mystères de Sylandra : page 74",
+    "text": "Vous vous approchez de la cabane et vous frappez à la porte. Vous attendez ensuite quelques secondes que le druide vienne vous ouvrir.\nAu bout d'une minute complète d'attente, vous vous décidez enfin à ouvrir la porte et à entrez dans la cabane. Au moment où vous mettez le pied dans le couloir, vous sentez une immense douleur vous parcourir le bras droit.\nSurpris, vous vous retournez et constatez qu'un gobelin vous attendait épée en main derrière la porte. C'est lui qui vient de vous frapper. Vous avez perdu *5 points de vie*.\nVous ressaisissant rapidement, vous prenez votre épée pour combattre. C'est alors que vous voyez débouler quatre autres gobelins qui sortent d'une porte du fond du couloir.\nFort heureusement, le couloir est trop étroit et vos adversaires ne peuvent pas vous combattre tous en même temps, ce qui est un petit avantage pour vous.\nVous restez donc dans le couloir pour les avoir les uns après les autres.",
+    "options": [
+      {
+        "title": "Suite du combat",
+        "action": 78
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Mystères de Sylandra : page 75",
+    "text": "Vous vous approchez de la cabane et vous frappez à la porte. Vous attendez ensuite quelques secondes que le druide vienne vous ouvrir.\nAu bout d'une minute complète d'attente, vous vous décidez enfin à ouvrir la porte et à entrez dans la cabane. Au moment où vous mettez le pied dans le couloir, vous sentez une immense douleur vous parcourir le bras droit.\nSurpris, vous vous retournez et constatez qu'un gobelin vous attendait épée en main derrière la porte. C'est lui qui vient de vous frapper. Vous avez perdu *5 points de vie*.\nVous ressaisissant rapidement, vous prenez votre épée pour combattre. C'est alors que vous voyez débouler quatre autres gobelins qui sortent d'une porte du fond du couloir.\nFort heureusement, le couloir est trop étroit et vos adversaires ne peuvent pas vous combattre tous en même temps, ce qui est un petit avantage pour vous.\nVous restez donc dans le couloir pour les avoir les uns après les autres.",
+    "options": [
+      {
+        "title": "Suite du combat",
+        "action": 78
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Mystères de Sylandra : page 76",
+    "text": "Vous vous approchez de la cabane et vous frappez à la porte. Vous attendez ensuite quelques secondes que le druide vienne vous ouvrir.\nAu bout d'une minute complète d'attente, vous vous décidez enfin à ouvrir la porte et à entrez dans la cabane. Au moment où vous mettez le pied dans le couloir, vous sentez une immense douleur vous parcourir le bras droit.\nSurpris, vous vous retournez et constatez qu'un gobelin vous attendait épée en main derrière la porte. C'est lui qui vient de vous frapper. Vous avez perdu *5 points de vie*.\nVous ressaisissant rapidement, vous prenez votre épée pour combattre. C'est alors que vous voyez débouler quatre autres gobelins qui sortent d'une porte du fond du couloir.\nFort heureusement, le couloir est trop étroit et vos adversaires ne peuvent pas vous combattre tous en même temps, ce qui est un petit avantage pour vous.\nVous restez donc dans le couloir pour les avoir les uns après les autres.",
+    "options": [
+      {
+        "title": "Suite du combat",
+        "action": 79
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Mystères de Sylandra : page 77",
+    "text": "Vous vous approchez de la cabane et vous frappez à la porte. Vous attendez ensuite quelques secondes que le druide vienne vous ouvrir.\nAu bout d'une minute complète d'attente, vous vous décidez enfin à ouvrir la porte et à entrez dans la cabane. Au moment où vous mettez le pied dans le couloir, vous sentez une immense douleur vous parcourir le bras droit.\nSurpris, vous vous retournez et constatez qu'un gobelin vous attendait épée en main derrière la porte. C'est lui qui vient de vous frapper. Vous avez perdu *5 points de vie*.\nVous ressaisissant rapidement, vous prenez votre épée pour combattre. C'est alors que vous voyez débouler quatre autres gobelins qui sortent d'une porte du fond du couloir.\nFort heureusement, le couloir est trop étroit et vos adversaires ne peuvent pas vous combattre tous en même temps, ce qui est un petit avantage pour vous.\nVous restez donc dans le couloir pour les avoir les uns après les autres.",
+    "options": [
+      {
+        "title": "Suite du combat",
+        "action": 79
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Mystères de Sylandra : page 78",
+    "text": "Les gobelins sont stupides, mais ils ont l'habitude de combattre en bande. Ils savent que la meilleure façon d'abattre un adversaire plus puissant qu'eux est de le prendre en tenaille.\nVous connaissez leurs tactiques et vous décidez de ne pas leur faciliter la tâche. Vous restez dans le couloir pour pouvoir les combattre un à un.\nDu coup, les choses tournent rapidement en votre faveur. Même si pendant le combat vous perdez *12 points de vie*, vous êtes bientôt victorieux.\nAlors que les cinq gobelins sont au sol, vous fouillez la cabane à la recherche d'Alembert. Vous le trouvez dans la pièce du fond, une sorte de grand atelier, où le druide fait ses expériences et ses potions.\nIl est attaché à une chaise, encore très choqué, mais sans blessure visible.\nIl vous propose de passer la nuit dans sa cabane et avant de vous laisser repartir le lendemain, Alembert s'emploie à soigner vos blessures pour vous remercier.\nLorsque vous revenez au château avec la potion du roi, ce dernier vous félicite chaleureusement. Il vous offre également *15 pièces d'or* pour cette affaire si rondement menée, ainsi que pour avoir éliminé cinq gobelins de son royaume.\nIl ne vous reste plus maintenant qu'à aller vous reposer en attendant votre prochaine aventure !\n\n*FIN*.",
+    "options": []
+  },
+  {
+    "id": 79,
+    "title": "Mystères de Sylandra : page 79",
+    "text": "Les gobelins sont stupides, mais ils ont l'habitude de combattre en bande. Ils savent que la meilleure façon d'abattre un adversaire plus puissant qu'eux est de le prendre en tenaille.\nVous connaissez leurs tactiques et vous décidez de ne pas leur faciliter la tâche. Vous restez dans le couloir pour pouvoir les combattre un à un.\nLes choses auraient pu largement tourner en votre faveur, sauf que vous aviez déjà une blessure importante, celle faite par le sanglier dans les bois.\nPendant le combat avec les gobelins vous perdez *12 points de vie* supplémentaires, ce qui est plus que ce vous ne pouviez encaisser.\nAlors que vous alliez avoir le dessus sur le tout dernier gobelin, vous vous effondrez et sentez la vie vous quitter.\nLa dernière chose que vous entendrez, c'est le rire strident de votre adversaire lorsqu'il vous portera le coup fatal.\nPeut-être que dans une autre vie, vous éviterez la charge d'un sanglier... peut-être, dans une autre vie !\n\n*FIN*.",
+    "options": []
+  }
+]
