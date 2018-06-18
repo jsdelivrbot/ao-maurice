@@ -4,7 +4,7 @@ module.exports = function (controller) {
     var chapters = require('../ldvelh/mysteres-de-sylandra.json');
 
 
-    controller.hears(['^aventure'], 'direct_message,direct_mention', function (bot, message) {
+    controller.hears(['aventure'], 'direct_message,direct_mention,mention', function (bot, message) {
 
         // console.log("bot", bot);
         // console.log("message", message);

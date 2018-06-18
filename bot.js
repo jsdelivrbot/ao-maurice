@@ -63,6 +63,8 @@ if (!process.env.clientId || !process.env.clientSecret || !process.env.PORT) {
 var Botkit = require('botkit');
 var debug = require('debug')('botkit:main');
 
+var firebaseStorage = require('botkit-storage-firebase')({firebase_uri: 'https://ao-worldcup.firebaseio.com/'});
+
 var bot_options = {
     clientId: process.env.clientId,
     clientSecret: process.env.clientSecret,
@@ -77,6 +79,17 @@ var bot_options = {
 if (process.env.MONGO_URI) {
     var mongoStorage = require('botkit-storage-mongo')({mongoUri: process.env.MONGO_URI});
     bot_options.storage = mongoStorage;
+} else if (process.env.FIREBASE_URI) {
+  var firebaseStorage = require('botkit-storage-firebase')({
+    firebase_uri: process.env.FIREBASE_URI,
+    apiKey: "AIzaSyB6nxwiS4N7tFiGBzDs7x-yO5koD1s3AFY",
+    authDomain: "ao-maurice.firebaseapp.com",
+    databaseURL: "https://ao-maurice.firebaseio.com",
+    projectId: "ao-maurice",
+    storageBucket: "ao-maurice.appspot.com",
+    messagingSenderId: "858385137663"
+  });
+  bot_options.storage = firebaseStorage;
 } else {
     bot_options.json_file_store = __dirname + '/.data/db/'; // store user data in a simple JSON format
 }

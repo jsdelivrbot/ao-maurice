@@ -1,6 +1,6 @@
 module.exports = function(controller) {
   
-  controller.hears(['^facts$','^blagues$'], 'direct_message', function(bot, message) {
+  controller.hears(['^facts$','^blagues$'], 'direct_message,direct_mention,mention', function(bot, message) {
     
     controller.storage.teams.get(message.team, function(err, team) {
       
@@ -45,7 +45,7 @@ module.exports = function(controller) {
     });
   });
   
-  controller.hears(['^remfact (.*)'],'direct_message,direct_mention,mention', function(bot, message) {
+  controller.hears(['^remfact (.*)','^delfact (.*)'],'direct_message,direct_mention,mention', function(bot, message) {
   
     var number = message.match[1];
     
@@ -89,7 +89,7 @@ module.exports = function(controller) {
     }    
   });
   
-  controller.hears(['fact (.*)','fact','blague','blague (.*)'], 'direct_message,direct_mention,mention', function(bot, message) {
+  controller.hears(['fact (.*)','^fact','^blague','blague (.*)'], 'direct_message,direct_mention,mention', function(bot, message) {
     console.log(message);
     var number = message.match[1];
     
