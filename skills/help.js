@@ -32,8 +32,8 @@ module.exports = function (controller) {
                 {
                     'fallback': 'Vous voulez insérer des choses dans mon cerveau ? ',
                     'title': 'Vous voulez insérer des choses dans mon cerveau ? :brain: :vibration_mode:',
-                    'text': 'Rien de plus simple, inscris toi sur `https://glitch.com/` et demande les droits'+ 
-                            ' d\'accès à <@U0T2AUH6H>. Si il accepte, tu auras accès à mon magnifique cerveau.',
+                    'text': 'Rien de plus simple, inscris toi sur `https://glitch.com/` et demande les droits '+ 
+                            'à <@U0T2AUH6H>. Si il accepte, tu auras accès à mon magnifique cerveau.',
                     'color': '#fed28a'
                 }
             ]

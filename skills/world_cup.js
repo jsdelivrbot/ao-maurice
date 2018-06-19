@@ -158,5 +158,10 @@ module.exports = function (controller) {
         bot.startPrivateConversation(message, function (err, convo) {
             convo.say(reply_with_attachments);
         });
+    
     });
+  
+  controller.hears(['^wc test$'], 'direct_message,direct_mention,mention', function (bot, message) {
+    controller.storage.teams.save({id:"bob",marcel:[1,2,3]});
+  });
 };
