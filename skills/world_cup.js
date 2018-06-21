@@ -69,6 +69,7 @@ module.exports = function (controller) {
                 message += team1.icon + " *" + team1.name + "* (_<@" + team1User.name + ">_) vs. " + team2.icon + " *" + team2.name + "* (_<@" + team2User.name + ">_)\n";
                 message += " le _" + day_name[matchDate.getDay()] + " " + str_pad(matchDate.getDate()) + ' ' + month_name[matchDate.getMonth()] + " " + matchDate.getFullYear() + "_";
                 message += " à _" + str_pad(matchDate.getHours()) + "h" + str_pad(matchDate.getMinutes()) + "_ \n\n";
+              console.log(dateNow.getHours() - matchDate.getHours(), dateNow.getMinutes() - matchDate.getMinutes());
             }
 
             let matchDate2 = new Date(nextMatch.date);
