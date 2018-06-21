@@ -18,9 +18,9 @@ module.exports = function (controller) {
     }
 
     function getRandomColor() {
-        var letters = '0123456789ABCDEF';
-        var color = '#';
-        for (var i = 0; i < 6; i++) {
+        const letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
             color += letters[Math.floor(Math.random() * 16)];
         }
         return color;
@@ -28,42 +28,64 @@ module.exports = function (controller) {
 
     controller.hears(['worldcup', '^wc$'], 'direct_message,direct_mention,mention', function (bot, message) {
 
-        let nextMatch;
-        let dateNow = new Date();
-        let dateEnd = new Date().setHours(dateNow.getHours() + 24);
-        for (var i = 0; i < events.length; i++) {
-            let item = events[i];
-            let itemDate = new Date(item.date);
-            if (itemDate > dateNow && itemDate <= dateEnd) {
-                nextMatch = item;
-                break;
-            }
-        }
+        // //let nextMatch;
+        // let dateNow = new Date();
+        // let dateEnd = new Date().setHours(dateNow.getHours() + 24);
+        // for (let i = 0; i < events.length; i++) {
+        //     let item = events[i];
+        //     let itemDate = new Date(item.date);
+        //     if (itemDate > dateNow && itemDate <= dateEnd) {
+        //         //nextMatch = item;
+        //         break;
+        //     }
+        // }
 
-        function getNextMatch(eventDate) {
-            let match_str;
-            for (var i = 0; i < events.length; i++) {
-                let matchItem = events[i];
-                if (matchItem.date === eventDate) {
-                    let matchDate = new Date(matchItem.date);
-                    let team1 = getTeam(matchItem.teams[0]);
-                    let team2 = getTeam(matchItem.teams[1]);
-
-                    let team1User = getUserByTeam(team1.id);
-                    let team2User = getUserByTeam(team2.id);
-
-                    match_str = "Le prochain match opposera: \n";
-                    match_str += team1.icon + " *" + team1.name + "* (_<@" + team1User.name + ">_) vs. " + team2.icon + " *" + team2.name + "* (_<@" + team2User.name + ">_)\n";
-                    match_str += " le _" + day_name[matchDate.getDay()] + " " + str_pad(matchDate.getDate()) + ' ' + month_name[matchDate.getMonth()] + " " + matchDate.getFullYear() + "_";
-                    match_str += " à _" + str_pad(matchDate.getHours()) + "h" + str_pad(matchDate.getMinutes()) + "_";
+        function getNextMatch() {
+            let currentMatch;
+            let nextMatch;
+            let dateNow = new Date();
+            let dateEnd = new Date().setHours(dateNow.getHours() + 1.6);
+            let message = "";
+            for (let i = 0; i < events.length; i++) {
+                let item = events[i];
+                let itemDate = new Date(item.date);
+                if (itemDate >= dateNow) {
+                    if (itemDate <= dateEnd) {
+                        currentMatch = item;
+                    } else {
+                        nextMatch = item;
+                        break;
+                    }
                 }
             }
 
-            return match_str;
+            if (currentMatch) {
+                let matchDate = new Date(currentMatch.date);
+                let team1 = getTeam(currentMatch.teams[0]);
+                let team2 = getTeam(currentMatch.teams[1]);
+                let team1User = getUserByTeam(team1.id);
+                let team2User = getUserByTeam(team2.id);
+                message += "Un match est en cours: \n";
+                message += team1.icon + " *" + team1.name + "* (_<@" + team1User.name + ">_) vs. " + team2.icon + " *" + team2.name + "* (_<@" + team2User.name + ">_)\n";
+                message += " le _" + day_name[matchDate.getDay()] + " " + str_pad(matchDate.getDate()) + ' ' + month_name[matchDate.getMonth()] + " " + matchDate.getFullYear() + "_";
+                message += " à _" + str_pad(matchDate.getHours()) + "h" + str_pad(matchDate.getMinutes()) + "_ \n\n";
+            }
+
+            let matchDate2 = new Date(nextMatch.date);
+            let team12 = getTeam(nextMatch.teams[0]);
+            let team22 = getTeam(nextMatch.teams[1]);
+            let team12User = getUserByTeam(team12.id);
+            let team22User = getUserByTeam(team22.id);
+            message += "Le prochain match opposera: \n";
+            message += team12.icon + " *" + team12.name + "* (_<@" + team12User.name + ">_) vs. " + team22.icon + " *" + team22.name + "* (_<@" + team22User.name + ">_)\n";
+            message += " le _" + day_name[matchDate2.getDay()] + " " + str_pad(matchDate2.getDate()) + ' ' + month_name[matchDate2.getMonth()] + " " + matchDate2.getFullYear() + "_";
+            message += " à _" + str_pad(matchDate2.getHours()) + "h" + str_pad(matchDate2.getMinutes()) + "_";
+            console.log(message);
+            return message;
         }
 
         function getTeam(teamID) {
-            for (var i = 0; i < countries.length; i++) {
+            for (let i = 0; i < countries.length; i++) {
                 if (countries[i].id === teamID) {
                     return countries[i];
                 }
@@ -72,9 +94,9 @@ module.exports = function (controller) {
 
         function getUserByTeam(teamID) {
             let user;
-            for (var i = 0; i < users.length; i++) {
+            for (let i = 0; i < users.length; i++) {
                 let curr_user = users[i];
-                for (var j = 0; j < curr_user.teams.length; j++) {
+                for (let j = 0; j < curr_user.teams.length; j++) {
                     if (curr_user.teams[j] === teamID) {
                         user = curr_user;
                     }
@@ -88,7 +110,7 @@ module.exports = function (controller) {
             return user;
         }
 
-        bot.reply(message, getNextMatch(nextMatch.date));
+        bot.reply(message, getNextMatch());
 
     });
     controller.hears(['^wc list$'], 'direct_message,direct_mention,mention', function (bot, message) {
@@ -100,7 +122,7 @@ module.exports = function (controller) {
         };
 
         function getTeam(teamID) {
-            for (var i = 0; i < countries.length; i++) {
+            for (let i = 0; i < countries.length; i++) {
                 if (countries[i].id === teamID) {
                     return countries[i];
                 }
@@ -109,9 +131,9 @@ module.exports = function (controller) {
 
         function getUserByTeam(teamID) {
             let user;
-            for (var i = 0; i < users.length; i++) {
+            for (let i = 0; i < users.length; i++) {
                 let curr_user = users[i];
-                for (var j = 0; j < curr_user.teams.length; j++) {
+                for (let j = 0; j < curr_user.teams.length; j++) {
                     if (curr_user.teams[j] === teamID) {
                         user = curr_user;
                     }
@@ -127,7 +149,7 @@ module.exports = function (controller) {
 
         function getMatchList() {
             let attachments = [];
-            for (var i = 0; i < events.length; i++) {
+            for (let i = 0; i < events.length; i++) {
                 let card = {};
                 let matchItem = events[i];
                 let matchDate = new Date(matchItem.date);
@@ -158,10 +180,5 @@ module.exports = function (controller) {
         bot.startPrivateConversation(message, function (err, convo) {
             convo.say(reply_with_attachments);
         });
-    
     });
-  
-  controller.hears(['^wc test$'], 'direct_message,direct_mention,mention', function (bot, message) {
-    controller.storage.teams.save({id:"bob",marcel:[1,2,3]});
-  });
 };
