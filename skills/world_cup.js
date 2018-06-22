@@ -69,7 +69,7 @@ module.exports = function (controller) {
                 message += team1.icon + " *" + team1.name + "* (_<@" + team1User.name + ">_) vs. " + team2.icon + " *" + team2.name + "* (_<@" + team2User.name + ">_)\n";
                 message += " le _" + day_name[matchDate.getDay()] + " " + str_pad(matchDate.getDate()) + ' ' + month_name[matchDate.getMonth()] + " " + matchDate.getFullYear() + "_";
                 message += " à _" + str_pad(matchDate.getHours()) + "h" + str_pad(matchDate.getMinutes()) + "_ \n\n";
-              console.log(dateNow.getHours() - matchDate.getHours(), dateNow.getMinutes() - matchDate.getMinutes());
+                message += " Le match est commencé depuis " + dateNow.getHours() - matchDate.getHours(), dateNow.getMinutes() - matchDate.getMinutes() + " minutes_ \n\n";
             }
 
             let matchDate2 = new Date(nextMatch.date);
@@ -170,6 +170,80 @@ module.exports = function (controller) {
 
                     attachments.push(card);
                 }
+            }
+
+            return attachments;
+        }
+
+
+        // bot.reply(message, reply_with_attachments);
+
+        bot.startPrivateConversation(message, function (err, convo) {
+            convo.say(reply_with_attachments);
+        });
+    });
+
+    controller.hears(['^wc results$'], 'direct_message,direct_mention,mention', function (bot, message) {
+
+        let reply_with_attachments = {
+            'username': 'Maurice',
+            'text': 'Voici les résultats :',
+            'attachments': getMatchList()
+        };
+
+        function getTeam(teamID) {
+            for (let i = 0; i < countries.length; i++) {
+                if (countries[i].id === teamID) {
+                    return countries[i];
+                }
+            }
+        }
+
+        function getUserByTeam(teamID) {
+            let user;
+            for (let i = 0; i < users.length; i++) {
+                let curr_user = users[i];
+                for (let j = 0; j < curr_user.teams.length; j++) {
+                    if (curr_user.teams[j] === teamID) {
+                        user = curr_user;
+                    }
+                }
+            }
+
+            bot.api.users.info({user: user.id}, function (err, info) {
+                user = info.user;
+            });
+
+            return user;
+        }
+
+        function getMatchList() {
+            let attachments = [];
+            for (let i = 0; i < events.length; i++) {
+                let card = {};
+                let matchItem = events[i];
+                let matchDate = new Date(matchItem.date);
+
+
+                let team1 = getTeam(matchItem.teams[0]);
+                let team2 = getTeam(matchItem.teams[1]);
+                let team1User = getUserByTeam(team1.id);
+                let team2User = getUserByTeam(team2.id);
+
+                if (matchDate <= new Date()) {
+                    card.title = team1.name + " " + team1.icon + " vs. " + team2.icon + " " + team2.name;
+                    card.fallback = card.title;
+                    card.text = "<@" + team1User.name + "> vs. <@" + team2User.name + "> \n";
+                    card.text += "le _" + day_name[matchDate.getDay()] + " " + str_pad(matchDate.getDate()) + ' ' + month_name[matchDate.getMonth()] + " " + matchDate.getFullYear() + "_";
+                    card.text += " à _" + str_pad(matchDate.getHours()) + "h" + str_pad(matchDate.getMinutes()) + "_ \n";
+                    card.text += " Résultat : _ " + matchItem.results[0] + " - " + matchItem.results[1] + "_";
+                    card.color = getRandomColor();
+
+                    console.log('Results : ' + matchItem.results);
+
+                    attachments.push(card);
+                }
+
             }
 
             return attachments;
